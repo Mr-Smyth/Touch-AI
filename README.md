@@ -83,9 +83,17 @@ ultimatly for the first release we will use the above table to target the most f
 
 ## Wireframes:
 
-* [Mobile platform wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/ai%20touch%20mobile%20wireframes.pdf)
+* [Home screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/home-screen-wireframe.pdf)
 
-* [Desktop platform wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/ai%20touch%20desktop%20wireframes.pdf)
+* [Hospitality screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/hospitality-screen-wireframe.pdf)
+
+* [Retail screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/retail-screen-wireframe.pdf)
+
+* [Features screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/features-screen-wireframe.pdf)
+
+* [Contact us screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/contact-screen-wireframe.pdf)
+
+* [About us screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/about-screen-wireframe.pdf)
 
  
 
