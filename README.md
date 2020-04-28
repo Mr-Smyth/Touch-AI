@@ -42,7 +42,41 @@ _( "keep it simple, stupid" - U.S. Navy 1960)_
 
 The visitor to the website will almost certainly have, or will intend to visit and compare other websites and products. So being transparent and informative above and beyond the need is an experience that will remain with the visitor.
 
+## User Stories 
 
+* As a user i want to easily find the information i want.
+* As a user i want to gain in-depth information from the website.
+* As a user i want to feel that the company is reputable.
+* As a user i want to know that i can easily contact someone.
+* As management i want a professional responsive online presence.
+* As management i want an accurate point of information quickly and easily accessible for partners.
+* As management i want to showcase our philosophy of support first.
+* As tech support i would like an online resourse (Faq/fttp) for partner tech information.
+* As tech support i would like an online resourse of downloads for support.
+* As tech support i would like a forum for dealers to discuss and post queries, and for us to respond.
+
+---
+<div align="center">
+
+#### Oppertunities arising from user stories:
+
+</div>
+
+<div align="center">
+ 
+
+|Opportunities | Importance | Viability / Feasibility
+|-----|:------:|:-----:|
+|**Online Presence** | 5 | 5 |
+|**Showcase Product** | 5 | 5 |
+|**Create a point of contact** | 5 | 5 |
+|**Make resposive for Mobile/Tablet** | 5 | 5 |
+|**Showcase backup support**| 4 | 5 |
+|**Showcase existing Partners** | 3 | 5 |
+|~~Create a Faq area for partners~~ | 2 | 1 |
+|~~Create an online forum for partners~~ | 2 | 1 |
+
+</div>
 
 ultimatly for the first release we will use the above table to target the most feasible elements.
 
