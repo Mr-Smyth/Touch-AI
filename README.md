@@ -82,7 +82,7 @@ ultimatly for the first release we will use the above table to target the most f
 ---
 
 ## Wireframe mockups:
-I made these of a medium fidelity wireframe, deliberatly leaving out promo images as they have not been finalised: I included some colour to test the appearance.
+I made these of a medium fidelity, deliberatly leaving out promo images as they have not been finalised: I included some colour to test the appearance.
 
 * [Home screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/home-screen-wireframe.pdf)
 
