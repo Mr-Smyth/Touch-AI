@@ -81,7 +81,8 @@ ultimatly for the first release we will use the above table to target the most f
 
 ---
 
-## Wireframes:
+## Wireframe mockups:
+I made these of a medium fidelity wireframe, deliberatly leaving out promo images as they have not been finalised: I included some colour to test the appearance.
 
 * [Home screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/home-screen-wireframe.pdf)
 
@@ -95,8 +96,45 @@ ultimatly for the first release we will use the above table to target the most f
 
 * [About us screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/about-screen-wireframe.pdf)
 
- 
+ ---
 
 
 
----
+
+# Features
+
+#### common features accross the site:
+* As this site is designed in the Mobile first screen sizes, each page of the website is responsive. They each contain a common navigation bar with the convention of a left hand logo with links on the right.
+* Each page also contains a common footer, with site navigation, contact details and social media links.
+
+
+#### Home - Landing page
+* Contains an brief introduction to our product, with links to more information.
+* Contains a carousel of reputible existing partners.
+* Has a call to action button on the Hero image.
+  
+#### Hospitality:
+* Contains more in-depth information regarding the Hospitality applications of Touch AI. Which include Handheld ordering and Kitchen order organising.
+
+#### Retail:
+* Contains more in-depth information regarding the Retail applications of Touch AI. Including Sock control and loyalty.
+
+#### Features:
+* Explains some of the core features of the system.
+
+#### About:
+* A brief history of AI Pos.
+* Some information on the Partner system.
+
+
+#### Contact us:
+* A contact form, which regests:
+    * Name
+    * Business Name
+    * Eir/Zip code
+    * Telephone Number
+    * email
+    * Contact number
+    * How did you find out about us message box
+    * How would you like to be contacted Radio buttons
+    * Message box   
