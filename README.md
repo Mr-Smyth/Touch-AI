@@ -104,14 +104,21 @@ I made these of a medium fidelity, deliberatly leaving out promo images as they 
 # Features
 
 #### common features accross the site:
-* As this site is designed in the Mobile first screen sizes, each page of the website is responsive. They each contain a common navigation bar with the convention of a left hand logo with links on the right.
-* Each page also contains a common footer, with site navigation, contact details and social media links.
+* As this site is designed in the Mobile first screen sizes, each page of the website is responsive. 
+* They each contain a common navigation bar with the convention of a left hand logo with links on the right.
+* Each page also contains a common footer, with site navigation, contact details and social media links. and another call to action button for making contact.
 
 
 #### Home - Landing page
 * Contains an brief introduction to our product, with links to more information.
+  
 * Contains a carousel of reputible existing partners.
+  
 * Has a call to action button on the Hero image.
+  
+* Has a section with some brief information on various possible implementations of the software, so as not to overwhelm. The user can then Learn More.
+  
+* Has several call to action buttons relating to more information and making contact.
   
 #### Hospitality:
 * Contains more in-depth information regarding the Hospitality applications of Touch AI. Which include Handheld ordering and Kitchen order organising.
@@ -120,14 +127,17 @@ I made these of a medium fidelity, deliberatly leaving out promo images as they 
 * Contains more in-depth information regarding the Retail applications of Touch AI. Including Sock control and loyalty.
 
 #### Features:
-* Explains some of the core features of the system.
+* Explains some of the core features of the system. This is again spit between the two main sectors of Retail and Hospitality, with a third more general section.
 
 #### About:
 * A brief history of AI Pos.
+  
 * Some information on the Partner system.
 
 
 #### Contact us:
+* Some more site common styling with a related image and some information about contacting us.
+  
 * A contact form, which regests:
     * Name
     * Business Name
