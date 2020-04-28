@@ -173,6 +173,10 @@ In addition, you may also use this section to discuss plans for additional featu
 * [Font Awesome](https://fontawesome.com/) was used to provide icons for the website.
   
 * [Google Fonts](https://fonts.google.com/) was the used as the source of fonts for this website.
+
+* [jQuery](https://code.jquery.com/) Toot the latest slim CDN of JQuery core 3.5.0
+
+*
   
 ---
 <!-- 
@@ -212,6 +216,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 # Credits
 ## Content
+* I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
 * The text for section Y was copied from the Wikipedia article Z
 
 
