@@ -62,7 +62,6 @@ The visitor to the website will almost certainly have, or will intend to visit a
 
 </div>
 
-<div align="center">
  
 
 |Opportunities | Importance | Viability / Feasibility
@@ -70,13 +69,13 @@ The visitor to the website will almost certainly have, or will intend to visit a
 |**Online Presence** | 5 | 5 |
 |**Showcase Product** | 5 | 5 |
 |**Create a point of contact** | 5 | 5 |
-|**Make resposive for Mobile/Tablet** | 5 | 5 |
+|**Make responsive for Mobile/Tablet** | 5 | 5 |
 |**Showcase backup support**| 4 | 5 |
 |**Showcase existing Partners** | 3 | 5 |
 |~~Create a Faq area for partners~~ | 2 | 1 |
 |~~Create an online forum for partners~~ | 2 | 1 |
 
-</div>
+
 
 ultimatly for the first release we will use the above table to target the most feasible elements.
 
