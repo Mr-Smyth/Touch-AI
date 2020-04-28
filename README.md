@@ -80,3 +80,15 @@ The visitor to the website will almost certainly have, or will intend to visit a
 ultimatly for the first release we will use the above table to target the most feasible elements.
 
 ---
+
+## Wireframes:
+
+* [Mobile platform wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/ai%20touch%20mobile%20wireframes.pdf)
+
+* [Desktop platform wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/ai%20touch%20desktop%20wireframes.pdf)
+
+ 
+
+
+
+---
