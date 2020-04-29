@@ -19,7 +19,7 @@
         <!--    USING BOOTSTRAP 4 NAVBAR AS TEMPLATE -->
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="primary">
 
             <!-- NAVBAR LOGO -->
             <a class="navbar-brand" href="index.html">
@@ -70,9 +70,11 @@
         <!-- MAIN SECTION -->
         <!--    HERO AREA -->
         <section>
-            <div class="hero-image"><!-- note style : will contain hero image -->
+            <div class="hero-image">
+                <!-- note style : will contain hero image -->
                 <div class="hero-text">
-                    <h1>Touching the future of EPos</h1> <!-- note style : Target these with global settings h1, h2 etc -->
+                    <h1>Touching the future of EPos</h1>
+                    <!-- note style : Target these with global settings h1, h2 etc -->
                     <h2>With the power of Touch AI</h2>
                     <a href="#contact-us" class="btn btn-cta">Take a look</a>
                 </div>
@@ -80,23 +82,133 @@
         </section>
 
         <!-- Main center white background trunk - full width in mobile, centered at 80% width on large screens and overlaps hero -->
-        <div class="container">
+        <div id="container center-background">
             <br>
         </div>
 
         <!-- Introduction -->
-        <section class="container introduction-container">
-            <div class="introduction-inner">
+        <article class="container-fluid section-wrapper">
+            <div class="text-section-inner">
                 <h1>The Total EPos Solution</h1>
                 <h2>Touch AI is the industry leading POS System that can make any business work!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquam maiores quod magnam
                     eligendi laboriosam tempora excepturi, qui voluptas doloremque dicta repellendus corrupti quasi eum
                     ratione suscipit aut libero reiciendis!</p>
             </div>
+        </article>
+
+        <!-- COMPANIES WHO BENEFIT SECTION -->
+        <section class="container-fluid">
+            <h1>Companies who currently Benefit from our systems</h1>
+            <div class="container-fluid carousel-container-sty">
+                <div class="carousel slide carousel-fade" data-ride="carousel">
+
+                    <!--  Slides  -->
+
+                    <div class="carousel-inner">
+
+                        <!-- Using the Bootstrap grid system to have a 2 per page carousel system -->
+                        <!-- Slide One  -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Gold standard partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <!-- Using a bare bones bootstrap card for my Partner links -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Gold standard Partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide Two-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Silver standard partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <!-- Using a bare bones bootstrap card for my Partner links -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Silver standard Partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Slide Three  -->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Silver standard partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <!-- Using a bare bones bootstrap card for my Partner links -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Gold standard Partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Slide Four -->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Gold standard partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <!-- Using a bare bones bootstrap card for my Partner links -->
+                                <div class="col">
+                                    <div class="card">
+                                        <img class="card-img-top" src="../assets/images/" alt="Partner image">
+                                        <div class="card-body">
+                                          <p class="card-text">Silver standard Partner</p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- End of Slides -->
+
+                </div>
+                <!-- END OF PARTNER CAROUSEL-->
+            </div>
 
         </section>
-
-
 
     </main>
 
