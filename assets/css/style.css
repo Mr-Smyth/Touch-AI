@@ -91,6 +91,7 @@ h6 {
    
 }
 
+/* DROPDOWN MENU ITEMS */
 .dropdown-item {
     color: #da7b93;
     font-size: 1.18rem;
@@ -103,10 +104,7 @@ h6 {
     background-color: #ddd;
 }
 
-
-
 /* REMOVE TOGGLER ICON BORDER */
-
 .navbar-dark .navbar-toggler {
     border: none;
   }

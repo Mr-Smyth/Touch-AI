@@ -236,12 +236,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 # Credits
 ## Content
 * I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
+* Shadows - Read articles on Box shadows in CSS tricks, implemented the ideas in my own way.
+  * H1 text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/) */
 * The text for section Y was copied from the Wikipedia article Z
 
 
 ## Media
 * The photos used in this site were obtained from Unsplash and privatly owned by me.
-* Logo was designed and created by me, after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/)
+* Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/)
 
 
 ## Acknowledgements
