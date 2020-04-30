@@ -100,10 +100,11 @@ h6 {
 }
 
 
-/* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU */
+/* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU - CSSGRADIENT.IO USED HERE */
 .dropdown-item:hover {
     color: #2e151b;
-    background-color: #ddd;
+    background: rgb(221,221,221);
+    background: radial-gradient(circle, rgba(221,221,221,1) 24%, rgba(46,21,27,1) 89%);
 }
 
 
@@ -121,18 +122,20 @@ h6 {
 
 /* STYLING FOR - CREATE SMOOTH TRANSITION OF COLOR WHEN LINKS ARE IN HOVERED STATE - CREDIT CODE TO CODE INSTITUTE MODULE */
 .navbar-dark .navbar-nav .nav-link:hover {
+    color:  #ddd;
     transition: all 0.55s ease-in-out;
     -moz-transition: all 0.55s ease-in-out;
     -webkit-transition: all 0.55s ease-in-out;
     -o-transition: all 0.55s ease-in-out;
-  }
+}
 
-
-  /* Hover underline effect - https://ianlunn.github.io/Hover/  colour src=https://cssgradient.io/ */
+  /* STYLING FOR - NAV LINKS HOVER UNDERLINE EFFECT - https://ianlunn.github.io/Hover/ and CDNJS -  COLOR src=https://cssgradient.io/ */
   .hvr-underline-from-center:before {
     border-radius: 20%;
-    background: rgb(224, 233, 231);
-    
+
+    background: rgb(221,221,221);
+    background: radial-gradient(circle, rgba(221,221,221,1) 24%, rgba(46,21,27,1) 89%);
+
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40 ease-in-out;
@@ -157,11 +160,7 @@ h6 {
   
   
   
-  /* Nav item Hover color change */
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #50756C;
-    text-shadow: -1px -1px 1px rgba(0, 0, 0, 1.50);
-  }
+ 
   
 
   
