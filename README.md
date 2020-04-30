@@ -47,13 +47,11 @@ The visitor to the website will almost certainly have, or will intend to visit a
 * As a user i want to easily find the information i want.
 * As a user i want to gain in-depth information from the website.
 * As a user i want to feel that the company is reputable.
-* As a user i want to know that i can easily contact someone.
+* As a user i want to know that i can easily and reliably contact someone.
 * As management i want a professional responsive online presence.
 * As management i want an accurate point of information quickly and easily accessible for partners.
 * As management i want to showcase our philosophy of support first.
-* As tech support i would like an online resourse (Faq/fttp) for partner tech information.
-* As tech support i would like an online resourse of downloads for support.
-* As tech support i would like a forum for dealers to discuss and post queries, and for us to respond.
+* As tech support i want to see how are services can be showcased to the clients.
 
 ---
 <div align="center">
@@ -96,7 +94,27 @@ I made these of a medium fidelity, deliberatly leaving out promo images as they 
 
 * [About us screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/about-screen-wireframe.pdf)
 
- ---
+---
+# Considered styling
+
+### HTML: 
+
+Used [Bootstrap](https://getbootstrap.com) extensively throughout the HTML, with some [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) also. This is due to the ease and speed achievable with bootstrap.
+
+### CSS:
+
+Really wanted to make the css as lightweight as i possibly could. Studied new naming methods like BEM, but decided not to use it for this project, instead i will stick with solid simple but descriptive class names.
+
+### Colours:
+
+Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colors of the site, matching with the own-styled logo.
+A white center trunk when the screen is expanded to deskto type sizes, will then contrast nicely with the [#555555](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23555555&oq=%23555555&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text
+
+
+
+---
+
+<br>
 
 
 
@@ -115,6 +133,7 @@ I made these of a medium fidelity, deliberatly leaving out promo images as they 
 * Contains a carousel of reputible existing partners.
   
 * Has a call to action button on the Hero image.
+* 
   
 * Has a section with some brief information on various possible implementations of the software, so as not to overwhelm. The user can then Learn More.
   
