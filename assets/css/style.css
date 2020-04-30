@@ -37,6 +37,13 @@ body {
 h1 {
     font-size: 1.6rem;
     font-weight: 700;
+    /* credit for the following code to achieve an internal shadow to: https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/ */
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.3);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
 }
 
 h2 {
@@ -70,9 +77,39 @@ h6 {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #da7b93;
+    font-size: 1.18rem;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #2e151b;
+    -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    -moz-box-shadow:    0 1px 6px 0 rgb(46,21,27);
+    box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    width: 100px;
+   
+}
+
+.dropdown-item {
+    color: #da7b93;
+    font-size: 1.18rem;
+    font-weight: 500;
+}
+
+/* HOVER STYLING FOR DROPDOWN MENU */
+.dropdown-item:hover {
+    color: #2e151b;
+    background-color: #ddd;
 }
 
 
+
+/* REMOVE TOGGLER ICON BORDER */
+
+.navbar-dark .navbar-toggler {
+    border: none;
+  }
 
 
 
