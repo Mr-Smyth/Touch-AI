@@ -237,8 +237,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Content
 * I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
 * Shadows - Read articles on Box shadows in CSS tricks, implemented the ideas in my own way.
-  * H1 text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/) */
+  * H1 text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/)
+* Used [CSS Gradient](https://cssgradient.io/) to achieve a few subtle background colours
 * The text for section Y was copied from the Wikipedia article Z
+* 
 
 
 ## Media

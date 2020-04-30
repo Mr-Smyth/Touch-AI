@@ -2,11 +2,11 @@
 
 /* ###################################################################      SOME NOTES - REMOVE BEFORE DEPLOYMENT */
 color note for self {
-    color: #686868;
+    color: #ddd; /* selected links */
     color: #fff;
     color: #eee;
     color: #777777;
-    color: #555555;
+    color: #555555; /* MAIN COLOR FOR TEXT CONTENT AND H2-H6 */
     color: #444444;
 
 
@@ -73,8 +73,7 @@ h6 {
 
 /* ###################################################################         NAVBAR STYLING */
 
-/* ######################################       STYLE THE NAV LINKS */
-
+/* STYLING FOR - STYLE THE NAV LINKS */
 .navbar-dark .navbar-nav .nav-link {
     color: #da7b93;
     font-size: 1.18rem;
@@ -82,41 +81,66 @@ h6 {
     font-weight: 500;
 }
 
+
+/* STYLING FOR - DROPDOWN MENU - METHOD TO ACHIEVE SHADOWS, INSPIRED FROM CSS TRICKS ARTICLE ON BOX-SHADOW, IMPLEMENTED IN MY OWN WAY */
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     background-color: #2e151b;
     -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
     -moz-box-shadow:    0 1px 6px 0 rgb(46,21,27);
     box-shadow: 0 1px 6px 0 rgb(46,21,27);
     width: 100px;
-   
 }
 
-/* DROPDOWN MENU ITEMS */
+
+/* STYLING FOR - DROPDOWN MENU ITEMS */
 .dropdown-item {
     color: #da7b93;
     font-size: 1.18rem;
     font-weight: 500;
 }
 
-/* HOVER STYLING FOR DROPDOWN MENU */
+
+/* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU */
 .dropdown-item:hover {
     color: #2e151b;
     background-color: #ddd;
 }
 
-/* REMOVE TOGGLER ICON BORDER */
+
+/* STYLING FOR - REMOVE TOGGLER ICON BORDER */
 .navbar-dark .navbar-toggler {
     border: none;
+}
+
+
+/* STYLING FOR - ACTIVE NAVBAR LINK */
+.navbar-dark .navbar-nav .active>.nav-link {
+    font-weight: 600;
+    color: #ddd;
+}
+
+/* STYLING FOR - CREATE SMOOTH TRANSITION OF COLOR WHEN LINKS ARE IN HOVERED STATE - CREDIT CODE TO CODE INSTITUTE MODULE */
+.navbar-dark .navbar-nav .nav-link:hover {
+    transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+  }
+
+
+  /* Hover underline effect - https://ianlunn.github.io/Hover/  colour src=https://cssgradient.io/ */
+  .hvr-underline-from-center:before {
+    border-radius: 20%;
+    background: rgb(224, 233, 231);
+    
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40 ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
   }
 
 
 
-
-
-
-
-
-
 /* ###################################################################       */
 
 /* ###################################################################       */
@@ -125,3 +149,20 @@ h6 {
 /* ###################################################################       */
 /* ###################################################################       */
 /* ###################################################################       */
+
+
+  
+  
+  
+  
+  
+  
+  /* Nav item Hover color change */
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #50756C;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 1.50);
+  }
+  
+
+  
+  
