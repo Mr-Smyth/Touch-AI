@@ -66,10 +66,19 @@ h6 {
 
 /* ###################################################################         NAVBAR STYLING */
 
+/* ######################################       STYLE THE NAV LINKS */
 
-.bg-light {
-    background-color: #2e151b;
+.navbar-dark .navbar-nav .nav-link {
+    color: #da7b93;
 }
+
+
+
+
+
+
+
+
 
 
 
