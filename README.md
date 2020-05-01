@@ -110,6 +110,11 @@ Really wanted to make the css as lightweight as i possibly could. Studied new na
 Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colors of the site, matching with the own-styled logo.
 A white center trunk when the screen is expanded to deskto type sizes, will then contrast nicely with the [#555555](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23555555&oq=%23555555&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text
 
+### Images:
+
+* All imaes used are from [Unsplash](https://unsplash.com/)
+
+* Hero image: Layered 2 images together using [Gimp](https://www.gimp.org/)  to include the subtle eye, to achieve a more catching hero image. Added a light pink opaque overlay to provide better contrast with hero text. 
 
 
 ---
@@ -128,6 +133,8 @@ A white center trunk when the screen is expanded to deskto type sizes, will then
 
 
 #### Home - Landing page
+
+* Hero image with promotional text and an call to action to "Take a Look" which leads to more information.
 * Contains an brief introduction to our product, with links to more information.
   
 * Contains a carousel of reputible existing partners.

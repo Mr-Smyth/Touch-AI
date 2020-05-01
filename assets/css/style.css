@@ -27,14 +27,18 @@ body {
     font-size: 100%;
     font-family: "Poppins" ,sans-serif;
     font-weight: 400;
-    /* background-color: #da7b93; */
+    background-color: #da7b93;
     color: #555555;
 }
 
 
 
 main {
-    background-color: #da7b93;
+    position: relative;
+    background-color: #fff;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
 }
 
 
