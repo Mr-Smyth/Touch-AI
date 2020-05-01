@@ -27,7 +27,7 @@ body {
     font-size: 100%;
     font-family: "Poppins" ,sans-serif;
     font-weight: 400;
-    background-color: #da7b93;
+    background-color: #da7b9367;
     color: #555555;
 }
 
@@ -39,6 +39,10 @@ main {
     width: 1200px;
     left: 50%;
     margin-left: -600px;
+    margin-top: -30px;
+    -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    -moz-box-shadow:    0 1px 6px 0 rgb(46,21,27);
+    box-shadow: 0 1px 6px 0 rgb(46,21,27);
 }
 
 
