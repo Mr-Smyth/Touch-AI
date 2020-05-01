@@ -40,11 +40,16 @@ main {
     left: 50%;
     margin-left: -600px;
     margin-top: -30px;
+    margin-bottom: 50px;
     -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
-    -moz-box-shadow:    0 1px 6px 0 rgb(46,21,27);
+    -moz-box-shadow: 0 1px 6px 0 rgb(46,21,27);
     box-shadow: 0 1px 6px 0 rgb(46,21,27);
 }
 
+
+.container-fluid {
+    text-align: center;
+}
 
 
 /* ################################         BUTTONS */
@@ -259,6 +264,35 @@ h6 {
     
     .hero-text h2 {
         font-size: 3.5rem;
+        
+    }
+    
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    
+    h4 {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+    h6 {
+        font-size: .6rem
     }
 }
 
