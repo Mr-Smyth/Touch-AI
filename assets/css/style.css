@@ -35,6 +35,32 @@ main {
     background-color: #da7b93;
 }
 
+/* ################################         BUTTONS */
+
+.btn {
+    color: #2e151b;
+    padding: 0.5rem 2rem;
+    border: 1px solid #2e151b;
+    display: inline-block;
+    margin: 0;
+    border-radius: 50px;
+}
+
+.btn-cta {
+    background: #ffa500;
+    
+}
+
+.btn:hover {
+    color: #ddd;
+    background: #da7b93;
+    transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+}
+
+
 /* ################################         HEADINGS */
 
 h1 {
@@ -79,7 +105,7 @@ h6 {
 /* STYLING FOR - STYLE THE NAV LINKS */
 .navbar-dark .navbar-nav .nav-link {
     color: #da7b93;
-    font-size: 1.18rem;
+    font-size: 1.1rem;
     margin: 0 10px;
     font-weight: 500;
 }
@@ -105,9 +131,14 @@ h6 {
 
 /* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU - CSSGRADIENT.IO USED HERE */
 .dropdown-item:hover {
-    color: #2e151b;
-    background: rgb(221,221,221);
-    background: radial-gradient(circle, rgba(221,221,221,1) 24%, rgba(46,21,27,1) 89%);
+    color:  #ddd;
+    transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+    background: #2e151b;
+    /* background: rgb(221,221,221);
+    background: radial-gradient(circle, rgba(221,221,221,1) 24%, rgba(46,21,27,1) 89%); */
 }
 
 
@@ -163,10 +194,21 @@ h6 {
     height: 100%;
     width: 100%;  
     background-color: rgba(218,123,147, 0.3);
+    display: flex;
   }
 
+.hero-text {
+    margin: auto;
+    
+}
 
+.hero-text h1 {
+    font-size: 3rem;
+}
 
+.hero-text h2 {
+    font-size: 2.5rem;
+}
 
 /* ###################################################################       */
 /* ###################################################################       */
