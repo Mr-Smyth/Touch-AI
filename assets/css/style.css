@@ -196,7 +196,7 @@ h6 {
 /* ###################################################################              HERO SECTION STYLING */
 
 .hero-image {
-    background-image:  url("/assets/images/laptop-stats-eye.jpg");
+    background-image:  url("../images/laptop-stats-eye.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
