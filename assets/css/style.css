@@ -41,18 +41,13 @@ main {
     margin-left: -600px;
     margin-top: -30px;
     margin-bottom: 50px;
-    -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
-    -moz-box-shadow: 0 1px 6px 0 rgb(46,21,27);
-    box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    
 }
 
 
-.container-fluid {
-    text-align: center;
-}
 
 
-/* ################################         BUTTONS */
+/* ################################        COMMON - BUTTONS */
 
 /* STYLING FOR - CORE BUTTON STYLING */
 .btn {
@@ -86,7 +81,7 @@ main {
 
 
 
-/* ################################         HEADINGS */
+/* ################################         COMMON - HEADINGS */
 
 h1 {
     font-size: 1.6rem;
@@ -121,6 +116,14 @@ h5 {
 
 h6 {
     font-size: .6rem
+}
+
+
+/* ################################         COMMON - GENERAL STYLING */
+.box-shadow {
+    -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    -moz-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    box-shadow: 0 1px 6px 0 rgb(46,21,27);
 }
 
 /* ################################################################################################################################# */
