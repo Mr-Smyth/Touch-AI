@@ -31,9 +31,7 @@ body {
     color: #555555;
 }
 
-
-
-main {
+/* main {
     position: relative;
     background-color: #fff;
     width: 1200px;
@@ -41,7 +39,16 @@ main {
     margin-left: -600px;
     margin-top: -30px;
     margin-bottom: 50px;  
+} */
+
+main {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+      
 }
+
+
 
 .container-fluid {
     padding: 0;
@@ -256,29 +263,47 @@ h6 {
 
 
 .hospitality-benifit-img{
-position: relative;
-background: url("/assets/images/hosp-1.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 200px;
-margin-left: -100;
+    position: relative;
+    background: url("/assets/images/hosp-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.retail-benifit-img {
+    position: relative;
+    background: url("/assets/images/retail-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.features-benifit-img{
+    position: relative;
+    background: url("/assets/images/feat-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
 }
 
 /* ###################################################################   MEDIA QUERYS    */
 
-@media (max-width: 1200px){
-    main {
-        width: 100%;
-        margin: 0;
-        left: 0;
-    }
-}
-
 @media (min-width: 576px){
+
     .hospitality-benifit-img {
         min-height: 300px;
       }
+
+    .retail-benifit-img {
+        min-height: 300px;
+    }
+
+    .features-benifit-img {
+        min-height: 300px;
+    }
 }
 
   
@@ -326,6 +351,26 @@ margin-left: -100;
 
 }
 
+
+@media (min-width: 1200px){
+    main {
+        max-width: 1200px;
+        left: 50%;
+        margin-left: -600px;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+
+    .expand-left-container {
+        position: relative;
+        margin-left: -80px;     
+    }
+
+    .expand-right-container {
+        position: relative;
+        margin-right: -80px;     
+    }
+}
   
 
 /* ###################################################################       */
