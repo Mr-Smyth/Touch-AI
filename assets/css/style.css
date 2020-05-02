@@ -261,56 +261,55 @@ h6 {
 
 /* ################################################################################################################################# */
 
+
+/* ###################################################################              BENEFITS SECTION STYLING */
+
+
 .benefits-container {
     margin-top: 100px;
 }
 
-.hospitality-benifit-img{
-    position: relative;
+.hospitality-benifit-img {
     background: url("/assets/images/hosp-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
 }
 
 .retail-benifit-img {
-    position: relative;
     background: url("/assets/images/retail-1.jpg");
+}
+
+.features-benifit-img{
+    background: url("/assets/images/feat-1.jpg");
+}
+
+.hospitality-benifit-img,
+.retail-benifit-img,
+.features-benifit-img {
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
 }
 
-.features-benifit-img{
-    position: relative;
-    background: url("/assets/images/feat-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-}
+
+/* ################################################################################################################################# */
+
 
 /* ###################################################################   MEDIA QUERYS    */
 
 @media (min-width: 576px){
 
-    .hospitality-benifit-img {
-        min-height: 300px;
-      }
-
-    .retail-benifit-img {
-        min-height: 300px;
-    }
-
+    /* ALLOW BENEFITS IMAGES TO GROW SLIGHTLY FROM MOBILE TO SMALL TABLET */
+    .hospitality-benifit-img,
+    .retail-benifit-img,
     .features-benifit-img {
         min-height: 300px;
-    }
+      }
 }
 
   
 @media (min-width: 910px){
+    /* FONT ADJUSTMENTS FOR LARGER SCREENS */
     .hero-text {
         text-align: left;
     }
@@ -356,6 +355,7 @@ h6 {
 
 
 @media (min-width: 1200px){
+    /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED / LG-BREAKPOINT */
     main {
         max-width: 1200px;
         left: 50%;
@@ -364,6 +364,7 @@ h6 {
         margin-bottom: 50px;
     }
 
+    /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
     .expand-left-container {
         position: relative;
         margin-left: -60px;     
