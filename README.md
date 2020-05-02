@@ -18,8 +18,8 @@
 </div>
 
 
-This is a project website for a fictional comapany called AI Touch. They develop Point of sale software for the retail and Hospitality trade.
-And what really makes AI Pos stand out against its competitors in the Point of Sale sector, is its clever use of AI(Artificial Intelligence) and ML(Machine Learning)
+This is a project website for a fictious comapany called Touch AI. They develop Point of sale software for the retail and Hospitality trade.
+And what really makes this Touch AI stand out against its competitors in the Point of Sale sector, is its direct clear information and uncluttered layout.
 
 
 ## UX
@@ -29,7 +29,7 @@ This project will be submitted for my User Centric Front End Development and fir
 
 ---
 
-AI Touch need a B2B website that will reflect their professional standards and the respectable image they have achieved.
+Touch AI need a B2B website that will reflect their professional standards and the respectable image they have achieved.
 
 The website will be primarily aimed at the POS dealer maket, not the end user.
 The goal of the website will be to build a partner network of dealers. The website will be a source of clear and accurate information, that builds confidence, and encourages them to request a demo pack, or otherwise make contact.
