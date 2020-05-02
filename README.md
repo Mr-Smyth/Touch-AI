@@ -211,6 +211,8 @@ In addition, you may also use this section to discuss plans for additional featu
 * Trying to implement the center white column in larger screen sizes, had planned on using an absolute positioned block, with the rest of the page rendered on top. What i found was that when resizing the screen (zooming) the absolute block would not resize in the expected manor, and any of the content would have needed a position relative to appear on top of the absolute div. Therefore it seemed like the wrong or messy way to do it. 
   I therefore decided to use the main section and style it white, and set the offset content to have negative margins.
 
+* Had an issue with center white div fixed at 1200px wide, which is what i need for a fixed central column, but one that will become full width on smaller screens. Being a fixed parent width div, to essentially the entire page content created the problem where i couldent set my bootstrap grid columns to be full width on smaller screens, as it was using 1200px as full width for its 12 col setting. So i setup a media query to strip the main elemennt of its negative margins and set width to 100%, allowing the children Bootstrap grids to flex naturally.
+
 <!-- 
 # Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
