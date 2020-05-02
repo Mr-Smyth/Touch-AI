@@ -31,24 +31,11 @@ body {
     color: #555555;
 }
 
-/* main {
-    position: relative;
-    background-color: #fff;
-    width: 1200px;
-    left: 50%;
-    margin-left: -600px;
-    margin-top: -30px;
-    margin-bottom: 50px;  
-} */
-
 main {
     position: relative;
     background-color: #fff;
     width: 100%;
-      
 }
-
-
 
 .container-fluid {
     padding: 0;
@@ -74,7 +61,8 @@ main {
 }
 
 /* STYLING FOR - BUTTON TYPE OF INFO */
-.btn-info {
+.btn-info,
+.btn-learn-more {
     background: #2e151b;
 }
 
