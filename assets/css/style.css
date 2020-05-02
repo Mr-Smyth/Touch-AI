@@ -45,7 +45,7 @@ main {
 
 .container-fluid {
     padding: 0;
-    width: 90%;
+    width: 95%;
 }
 
 
@@ -255,6 +255,16 @@ h6 {
 /* ################################################################################################################################# */
 
 
+.hospitality-benifit-img{
+position: relative;
+background: url("/assets/images/hosp-1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+margin-left: -100;
+}
+
 /* ###################################################################   MEDIA QUERYS    */
 
 @media (max-width: 1200px){
@@ -263,6 +273,12 @@ h6 {
         margin: 0;
         left: 0;
     }
+}
+
+@media (min-width: 576px){
+    .hospitality-benifit-img {
+        min-height: 300px;
+      }
 }
 
   
@@ -307,6 +323,7 @@ h6 {
     h6 {
         font-size: .6rem
     }
+
 }
 
   
