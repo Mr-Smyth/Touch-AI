@@ -40,11 +40,13 @@ main {
     left: 50%;
     margin-left: -600px;
     margin-top: -30px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;  
 }
 
-
+.container-fluid {
+    padding: 0;
+    width: 90%;
+}
 
 
 /* ################################        COMMON - BUTTONS */
@@ -255,6 +257,13 @@ h6 {
 
 /* ###################################################################   MEDIA QUERYS    */
 
+@media (max-width: 1200px){
+    main {
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+}
 
   
 @media (min-width: 910px){
