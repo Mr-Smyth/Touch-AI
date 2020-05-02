@@ -37,10 +37,6 @@ main {
     width: 100%;
 }
 
-.container-fluid {
-    padding: 0;
-    width: 95%;
-}
 
 
 /* ################################        COMMON - BUTTONS */
@@ -122,6 +118,17 @@ h6 {
     -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
     -moz-box-shadow: 0 1px 6px 0 rgb(46,21,27);
     box-shadow: 0 1px 6px 0 rgb(46,21,27);
+}
+
+
+/* ################################################################################################################################# */
+
+
+/* ################################         COMMON - CONTAINERS*/
+.intro-container,
+.partner-container {
+    padding: 0;
+    width: 90%;
 }
 
 
@@ -256,7 +263,6 @@ h6 {
 
 .benefits-container {
     margin-top: 100px;
-    
 }
 
 .hospitality-benifit-img {
