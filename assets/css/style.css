@@ -261,6 +261,9 @@ h6 {
 
 /* ################################################################################################################################# */
 
+.benefits-container {
+    margin-top: 100px;
+}
 
 .hospitality-benifit-img{
     position: relative;
@@ -363,12 +366,18 @@ h6 {
 
     .expand-left-container {
         position: relative;
-        margin-left: -80px;     
+        margin-left: -60px;     
     }
 
     .expand-right-container {
         position: relative;
-        margin-right: -80px;     
+        margin-right: -60px;     
+    }
+
+    .expand-both-container {
+        position: relative;
+        margin-left: 60px;
+        margin-right: -60px;     
     }
 }
   
