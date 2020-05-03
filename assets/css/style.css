@@ -21,8 +21,14 @@ color note for self {
 }
 
 /* ###################################################################      COMMON STYLING */
+/* RESET ALL MARGINS AND PADDING AND SET DEFAULT BOX SIZING TO BE BORDER BOX  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-
+/* STYLING FOR - DEFAULT STYLING FOR THE BODY */
 body {
     font-size: 100%;
     font-family: "Poppins" ,sans-serif;
@@ -31,10 +37,13 @@ body {
     color: #555555;
 }
 
+/* STYLING FOR - THE MAIN ELEMENT */
 main {
     position: relative;
     background-color: #fff;
     width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 
@@ -58,7 +67,8 @@ main {
 
 /* STYLING FOR - BUTTON TYPE OF INFO */
 .btn-info,
-.btn-learn-more {
+.btn-learn-more,
+.btn-read-more {
     background: #2e151b;
     box-shadow: 0 5px 5px 0 rgba(32,33,36,0.50);
 }
@@ -75,10 +85,10 @@ main {
 
 
 
-/* ################################              COMMON - HEADINGS */
+/* ################################              COMMON - HEADINGS & PARAGRAPHS */
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-weight: 700;
     /* credit for the following code to achieve an internal shadow to: https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/ */
     background-color: #565656;
@@ -89,9 +99,16 @@ h1 {
     background-clip: text;
 }
 
+h1, h2, h3,
+h4, h5, h6 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
 h2 {
     font-size: 1.4rem;
     font-weight: 600;
+   
 }
 
 h3 {
@@ -112,6 +129,11 @@ h6 {
     font-size: .6rem
 }
 
+p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
 
 /* ################################         COMMON - GENERAL STYLING */
 .box-shadow {
@@ -128,9 +150,18 @@ h6 {
 .intro-container,
 .partner-container {
     padding: 0;
-    width: 90%;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
+.partner-callout-container {
+    margin-bottom: 100px;
+}
+
+/* TO REMOVE CARD BORDER STYLING */
+.card {
+    border-style: none;
+}
 
 
 
@@ -203,7 +234,8 @@ h6 {
 
   /* STYLING FOR - NAV LINKS HOVER UNDERLINE EFFECT - https://ianlunn.github.io/Hover/ and CDNJS -  COLOR src=https://cssgradient.io/ */
   .hvr-underline-from-center:before {
-    border-radius: 20%;
+    border-radius: 50%;
+    height: 5px;
 
     background: rgb(221,221,221);
     background: radial-gradient(circle, rgba(221,221,221,1) 24%, rgba(46,21,27,1) 89%);
@@ -222,7 +254,7 @@ h6 {
 
 .hero-image {
     background-image:  url("../images/laptop-stats-eye.jpg");
-    height: 100vh;
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -352,12 +384,12 @@ h6 {
     }
     
     .hero-text h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         
     }
     
     h1 {
-        font-size: 2.6rem;
+        font-size: 4rem;
         font-weight: 700;
     }
     
@@ -400,18 +432,18 @@ h6 {
     /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
     .expand-left-container {
         position: relative;
-        margin-left: -40px;     
+        margin-left: -60px;     
     }
 
     .expand-right-container {
         position: relative;
-        margin-right: -40px;     
+        margin-right: -60px;     
     }
 
     .expand-both-container {
         position: relative;
-        margin-left: -25px;
-        width: 1250px
+        margin-left: -50px;
+        width: 1260px
     }
 
     .partner-callout-container h2 {
