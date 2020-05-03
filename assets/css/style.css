@@ -132,22 +132,7 @@ h6 {
 }
 
 
-.partner-callout-container {
-    margin-top: 100px;
-    background-color: #2e151b;
-}
 
-.partner-callout-container h2 {
-    color: #da7b93;
-}
-
-.partner-callout-container h3 {
-    color: #ddd;
-}
-
-.partner-callout-container .row {
-    height: 180px;
-}
 
 
 /* ################################################################################################################################# */
@@ -305,6 +290,39 @@ h6 {
     min-height: 200px;
 }
 
+
+/* ################################################################################################################################# */
+
+
+/* ###################################################################   PARTNER CALLOUT BANNER    */
+
+.partner-callout-container {
+    margin-top: 100px;
+    background-color: #2e151b;
+}
+
+.partner-callout-container h2 {
+    color: #da7b93;
+}
+
+.partner-callout-container h3 {
+    color: #ddd;
+}
+
+.partner-callout-container .row {
+    height: 180px;
+}
+
+/* ################################################################################################################################# */
+
+
+/* ###################################################################   FURTHER READING    */
+
+.reading-container {
+    width: 90%;
+    margin-top: 100PX;
+    padding: 10px 20px 80px;
+}
 
 /* ################################################################################################################################# */
 
