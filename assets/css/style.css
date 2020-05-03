@@ -26,6 +26,7 @@ color note for self {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /* STYLING FOR - DEFAULT STYLING FOR THE BODY */
@@ -146,7 +147,7 @@ p {
 /* ################################################################################################################################# */
 
 
-/* ################################         COMMON - CONTAINERS*/
+/* ################################         COMMON - CONTAINERS AND CARDS*/
 .intro-container,
 .partner-container {
     padding: 0;
@@ -163,7 +164,11 @@ p {
     border-style: none;
 }
 
-
+.card-body {
+    -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    -moz-box-shadow: 0 1px 6px 0 rgb(46,21,27);
+    box-shadow: 0 1px 6px 0 rgb(46,21,27);
+}
 
 
 /* ################################################################################################################################# */
