@@ -279,15 +279,15 @@ p {
 }
 
 .hospitality-benifit-img {
-    background-image: url("/assets/images/hosp-1.jpg");
+    background-image: url("/assets/images/hosp-1.jpg" alt="Hospitality Image");
 }
 
 .retail-benifit-img {
-    background-image: url("/assets/images/retail-1.jpg");
+    background-image: url("/assets/images/retail-1.jpg" alt="Retail Image");
 }
 
 .features-benifit-img{
-    background-image: url("/assets/images/feat-1.jpg");
+    background-image: url("/assets/images/feat-1.jpg" alt="Features Image");
 }
 
 .hospitality-benifit-img,
