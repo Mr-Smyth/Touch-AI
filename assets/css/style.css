@@ -26,7 +26,6 @@ color note for self {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 /* STYLING FOR - DEFAULT STYLING FOR THE BODY */
@@ -363,10 +362,65 @@ p {
 
 /* ###################################################################         PAGE FOOTER */
 
-.page-footer {
-    background-color: #2e151b;
+/* STYLING FOR - ACTIVE NAVBAR LINK */
+.footer-nav-links.active {
+    font-weight: 700;
+    color: #ddd;
 }
 
+/* STYLING FOR - CREATE SMOOTH TRANSITION OF COLOR WHEN LINKS ARE IN HOVERED STATE - CREDIT CODE TO CODE INSTITUTE MODULE */
+.footer-nav-links:hover {
+    color:  #ddd;
+    transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+}
+
+
+.page-footer {
+    width: 100%;
+    background-color: #2e151b;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.page-footer a,
+.page-footer h6 {
+    color: #da7b93;
+    text-decoration: none;
+}
+
+
+a.social-links .fab {
+    margin-right: 20px;
+    color: #da7b93;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+  }
+  
+  .social-links .fab:hover {
+    text-shadow: 2px 2px 1px #1f030a;
+  }
+  
+  .social-links .fa-twitter:hover {
+    color: #38A1F3;
+  }
+  
+  .social-links .fa-facebook:hover {
+    color: #3b5998;
+  }
+  
+  .social-links .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+  
+  .social-links .fa-youtube:hover {
+    color: #ff0000;
+  }
+  
 
 /* ################################################################################################################################# */
 
