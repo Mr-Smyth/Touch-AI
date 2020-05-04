@@ -29,7 +29,6 @@ main {
 }
 
 
-
 /* ################################             COMMON - BUTTONS */
 
 /* STYLING FOR - CORE BUTTON STYLING */
@@ -131,7 +130,7 @@ p {
 /* ################################         COMMON - CONTAINERS*/
 .intro-container,
 .partner-container {
-    padding: 0;
+    padding: 0 40px;
     width: 100%;
     margin-bottom: 80px;
 }
@@ -286,6 +285,7 @@ p {
 /* ###################################################################   PARTNER CALLOUT BANNER    */
 
 .partner-callout-container {
+    width: 100%;
     margin-top: 100px;
     background-color: #2e151b;
 }
@@ -468,10 +468,10 @@ a.social-links .fab {
         margin-right: -60px;     
     }
 
-    .expand-both-container {
+    .partner-callout-container {
         position: relative;
-        margin-left: -50px;
-        width: 1260px
+        margin-left: -40px;
+        width: 1280px
     }
 
     .partner-callout-container h2 {
