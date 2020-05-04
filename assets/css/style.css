@@ -1,37 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* ###################################################################      SOME NOTES - REMOVE BEFORE DEPLOYMENT */
-color note for self {
-    color: #ddd; /* selected links */
-    color: #fff;
-    color: #eee;
-    color: #777777;
-    color: #555555; /* MAIN COLOR FOR TEXT CONTENT AND H2-H6 */
-    color: #444444;
-
-
-    
-    background-color: #2e151b;
-    background-color: rgb(218, 123, 147);
- 
-    background-color: #376e6f;
-    background-color: #1c3334;
-    
-    background-color: #2f4454
-}
-
 /* ###################################################################      COMMON STYLING */
 /* RESET ALL MARGINS AND PADDING AND SET DEFAULT BOX SIZING TO BE BORDER BOX  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 
 /* STYLING FOR - DEFAULT STYLING FOR THE BODY */
 body {
+    width: 100%;
     font-size: 100%;
     font-family: "Poppins" ,sans-serif;
     font-weight: 400;
@@ -299,15 +279,15 @@ p {
 }
 
 .hospitality-benifit-img {
-    background: url("/assets/images/hosp-1.jpg");
+    background-image: url("/assets/images/hosp-1.jpg");
 }
 
 .retail-benifit-img {
-    background: url("/assets/images/retail-1.jpg");
+    background-image: url("/assets/images/retail-1.jpg");
 }
 
 .features-benifit-img{
-    background: url("/assets/images/feat-1.jpg");
+    background-image: url("/assets/images/feat-1.jpg");
 }
 
 .hospitality-benifit-img,
@@ -348,7 +328,7 @@ p {
 
 /* ###################################################################         FURTHER READING - NEWS SECTION */
 
-.further-reading-container h2 {
+.f h2 {
     margin-bottom: 50px;
     text-align: left;
 }
@@ -385,6 +365,7 @@ p {
     background-color: #2e151b;
     text-align: center;
     padding: 20px 10px;
+    overflow: hidden;
 }
 
 .page-footer a,
@@ -423,6 +404,7 @@ a.social-links .fab {
     color: #ff0000;
   }
   
+
 
 /* ################################################################################################################################# */
 
