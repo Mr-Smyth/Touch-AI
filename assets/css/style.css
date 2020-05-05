@@ -363,8 +363,12 @@ p {
     text-decoration: none;
 }
 
+.page-footer a, .btn-cta {
+    color: #ddd;
+}
 
 a.social-links .fab {
+    font-size: 2rem;
     margin-right: 20px;
     color: #da7b93;
     transition: all 0.35s ease-in-out;
@@ -374,7 +378,7 @@ a.social-links .fab {
   }
   
   .social-links .fab:hover {
-    text-shadow: 2px 2px 1px #1f030a;
+    text-shadow: 1px .5px .5px #da7b93;
   }
   
   .social-links .fa-twitter:hover {
@@ -393,7 +397,11 @@ a.social-links .fab {
     color: #ff0000;
   }
   
-
+.Copyright {
+    font-size: 1rem;
+    margin: 30px 0 10px;
+    
+}
 
 /* ################################################################################################################################# */
 
