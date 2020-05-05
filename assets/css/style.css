@@ -136,9 +136,13 @@ p {
 }
 
 .partner-callout-container {
+    padding: 10px 20px;
     margin-bottom: 100px;
 }
 
+.further-reading-container {
+    padding: 0 40px;
+}
 
 
 
@@ -306,7 +310,7 @@ p {
 
 /* ###################################################################         FURTHER READING - NEWS SECTION */
 
-.f h2 {
+.further-reading-container h2 {
     margin-bottom: 50px;
     text-align: left;
 }
@@ -316,6 +320,13 @@ p {
     border-style: none;
 }
 
+.gold-meter-award,
+.licence-announcement,
+.forum-post {
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 20px ;
+}
 
 /* ################################################################################################################################# */
 
