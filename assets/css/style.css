@@ -197,10 +197,13 @@ p {
 
 
 /* STYLING FOR - ACTIVE NAVBAR LINK */
-.navbar-dark .navbar-nav .active>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link,
+.dropdown-item.active {
+    background-color: #2e151b;
     font-weight: 700;
     color: #ddd;
 }
+
 
 /* STYLING FOR - CREATE SMOOTH TRANSITION OF COLOR WHEN LINKS ARE IN HOVERED STATE - CREDIT CODE TO CODE INSTITUTE MODULE */
 .navbar-dark .navbar-nav .nav-link:hover {
