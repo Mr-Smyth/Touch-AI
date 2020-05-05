@@ -345,7 +345,15 @@ p {
 
 /* ###################################################################         PAGE FOOTER */
 
-/* STYLING FOR - ACTIVE NAVBAR LINK */
+.page-footer {
+    width: 100%;
+    background-color: #2e151b;
+    text-align: center;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+/* STYLING FOR - ACTIVE NAVIGATION LINK */
 .footer-nav-links.active {
     font-weight: 700;
     color: #ddd;
@@ -361,13 +369,7 @@ p {
 }
 
 
-.page-footer {
-    width: 100%;
-    background-color: #2e151b;
-    text-align: center;
-    padding: 20px 10px;
-    overflow: hidden;
-}
+
 
 .page-footer a,
 .page-footer h6 {

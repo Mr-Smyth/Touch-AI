@@ -82,7 +82,7 @@
 
     <main class="box-shadow">
 
-        <!-- Introduction -->
+        <!-- INTRODUCTION - USING BOOTSTRAP GRID -->
         <article class="container-fluid intro-container pt-5">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
@@ -98,7 +98,8 @@
             </div>
         </article>
 
-        <!-- PARTNERS SECTION -->
+        <!-- PARTNERS SECTION - USING BOOTSTRAP GRID/CARDS -->
+        <!--    IMAGE CAROUSEL TO EXHIBIT CURRENT PARTNERS -->
         <section class="container-fluid partner-container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
@@ -107,11 +108,11 @@
                     <div class="carousel-container mb-4">
                         <div class="carousel slide carousel-slide" data-ride="carousel">
 
-                            <!--  Slides  -->
+                            <!--  SLIDES  -->
                             <div class="carousel-inner">
 
-                                <!-- Using the Bootstrap grid system to have a 2 per page carousel system -->
-                                <!-- Slide One  -->
+                                <!-- USING THE BOOTSTRAP GRID SYSTEM TO HAVE A 2 PER PAGE CAROUSEL -->
+                                <!--    SLIDE ONE  -->
                                 <div class="carousel-item active">
                                     <div class="row justify-content-around pt-2 pb-5">
                                         <div class="col-5 col-md-4">
@@ -120,7 +121,7 @@
                                                     alt="Partner image">
                                             </div>
                                         </div>
-                                        <!-- Using a bare bones bootstrap card for my Partner links -->
+                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
                                         <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-1.jpg"
@@ -130,7 +131,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Slide Two-->
+                                <!-- SLIDE 2-->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
                                         <div class="col-5 col-md-4">
@@ -139,7 +140,7 @@
                                                     alt="Partner image">
                                             </div>
                                         </div>
-                                        <!-- Using a bare bones bootstrap card for my Partner links -->
+                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
                                         <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-6.jpg"
@@ -149,7 +150,7 @@
                                     </div>
                                 </div>
 
-                                <!--  Slide Three  -->
+                                <!--  SLIDE THREE  -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
                                         <div class="col-5 col-md-4">
@@ -158,7 +159,7 @@
                                                     alt="Partner image">
                                             </div>
                                         </div>
-                                        <!-- Using a bare bones bootstrap card for my Partner links -->
+                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
                                         <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-4.jpg"
@@ -168,7 +169,7 @@
                                     </div>
                                 </div>
 
-                                <!--  Slide Four -->
+                                <!--  SLIDE FOUR -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
                                         <div class="col-5 col-md-4">
@@ -177,7 +178,7 @@
                                                     alt="Partner image">
                                             </div>
                                         </div>
-                                        <!-- Using a bare bones bootstrap card for my Partner links -->
+                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
                                         <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-3.jpg"
@@ -186,10 +187,8 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
-                            <!-- End of Slides -->
+                            <!-- END OF SLIDES -->
 
                         </div>
                         <!-- END OF PARTNER CAROUSEL-->
@@ -198,7 +197,8 @@
             </div>
         </section>
 
-        <!-- TOUCH AI BENEFITS -->
+        <!-- TOUCH AI BENEFITS - USING BOOTSTRAP GRID -->
+        <!--    A 3 PART - IMAGE AND BRIEF DESCRIPTION SECTION - WITH LINKS TO MORE INFORMATION -->
         <article class="container-fluid benefits-container">
 
             <!-- BENEFITS SECTION - HOSPITALITY BENEFITS -->
@@ -255,7 +255,7 @@
 
         </article>
 
-        <!-- BECOME A PARTNER TODAY BANNER -->
+        <!-- BECOME A PARTNER TODAY BANNER - USING BOOTSTRAP GRID -->
         <section class="container-fluid partner-callout-container box-shadow">
             <div class="row align-items-center">
                 <div class="col-12 col-xl-8 text-center">
@@ -313,7 +313,7 @@
                 </div>
             </div>
 
-            <!--        SECOND NEWS STORY -->
+            <!-- SECOND NEWS STORY -->
             <div class="card mb-4">
                 <div class="row no-gutters justify-content-center">
                     <div class="d-none d-md-block col-md-2">
@@ -353,8 +353,8 @@
                 </div>
             </div>
 
-            <!--        THIRD NEWS STORY -->
-            <div class="card mb-4">
+            <!-- THIRD NEWS STORY -->
+            <div class="card">
                 <div class="row no-gutters justify-content-center mb-5">
                     <div class="d-none d-md-block col-md-2">
                         <img class="forum-post box-shadow" src="assets/images/forum-post.jpg" alt="forum Post Picture">
@@ -363,33 +363,34 @@
                         <h4 class="mb-4"> New revamped and feature packed partner forum launched!</h4>
                         <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
                         <div class="row no-gutters justify-content-center">
-                        <div class="col-12 col-lg-8 mb-4">
-                            <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
-                                data-target="#news-item-three" aria-expanded="true" aria-controls="collapseNewsthree">
-                                Read More
-                            </button>
+                            <div class="col-12 col-lg-8 mb-4">
+                                <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
+                                    data-target="#news-item-three" aria-expanded="true"
+                                    aria-controls="collapseNewsthree">
+                                    Read More
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="news-item-three" class="collapse" aria-labelledby="headingOne" data-parent="#further-reading">
-                <div class="card-body box-shadow mb-4">
-                    <h4>The Golden Meter is Awarded for 6th successive year!</h4>
-                    <p>
-                        Congratulations to our Tech support department on recently being awarded the Golden meter
-                        award
-                        for excellence in Technical support. This award is voted on by dealers worldwide, and so,
-                        the
-                        Tech
-                        support department rightly feel very proud of this achievement. <br>At Touch AI,
-                        we consider Backup support to be paramount, we <strong>do not</strong> believe in
-                        supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
-                        team,
-                        guys who go above and beyond to meet our partners requirements.
-                    </p>
+                <div id="news-item-three" class="collapse" aria-labelledby="headingOne" data-parent="#further-reading">
+                    <div class="card-body box-shadow mb-4">
+                        <h4>The Golden Meter is Awarded for 6th successive year!</h4>
+                        <p>
+                            Congratulations to our Tech support department on recently being awarded the Golden meter
+                            award
+                            for excellence in Technical support. This award is voted on by dealers worldwide, and so,
+                            the
+                            Tech
+                            support department rightly feel very proud of this achievement. <br>At Touch AI,
+                            we consider Backup support to be paramount, we <strong>do not</strong> believe in
+                            supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
+                            team,
+                            guys who go above and beyond to meet our partners requirements.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </div>
 
         </article>
