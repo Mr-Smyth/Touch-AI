@@ -24,7 +24,6 @@ main {
     position: relative;
     background-color: #fff;
     width: 100%;
-    padding: 20px;
     text-align: center;
 }
 
@@ -130,7 +129,7 @@ p {
 /* ################################         COMMON - CONTAINERS*/
 .intro-container,
 .partner-container {
-    padding: 0 40px;
+    padding: 0 20px;
     width: 100%;
     margin-bottom: 80px;
 }
