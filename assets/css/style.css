@@ -88,12 +88,14 @@ h4, h5, h6 {
 h2 {
     font-size: 1.4rem;
     font-weight: 600;
+    text-transform: uppercase;
    
 }
 
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -310,8 +312,19 @@ p {
 /* ###################################################################         FURTHER READING - NEWS SECTION */
 
 .further-reading-container h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: left;
+}
+
+.further-reading-container h2::before,
+.benefits-container h3::before {
+    content: '';
+    display: block;
+    background: rgb(46,21,27);
+    background: linear-gradient(90deg, rgba(46,21,27,0.9805133723411239) 10%, rgba(233,177,191,1) 20%, rgba(255,255,255,1) 30%);
+    border-radius: 10px;
+    height: 20px;
+    margin-bottom: 10px;
 }
 
 /* STYLING FOR - TO REMOVE CARD BORDER STYLING */
