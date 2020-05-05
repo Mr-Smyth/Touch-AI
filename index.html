@@ -18,8 +18,7 @@
     <header>
         <!-- LOGO AND NAVBAR SECTION -->
         <!--    USING BOOTSTRAP 4 NAVBAR AS TEMPLATE -->
-
-
+        <!--        SETTING NAVBAR COLOR INLINE HERE, TO OVERRIDE THE BOOTSTRAP STYLE -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2e151b;" aria-label="primary">
 
             <!-- NAVBAR LOGO -->
@@ -114,14 +113,14 @@
                                 <!-- Slide One  -->
                                 <div class="carousel-item active">
                                     <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-5.jpg"
                                                     alt="Partner image">
                                             </div>
                                         </div>
                                         <!-- Using a bare bones bootstrap card for my Partner links -->
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-1.jpg"
                                                     alt="Partner image">
@@ -133,14 +132,14 @@
                                 <!-- Slide Two-->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-2.jpg"
                                                     alt="Partner image">
                                             </div>
                                         </div>
                                         <!-- Using a bare bones bootstrap card for my Partner links -->
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-6.jpg"
                                                     alt="Partner image">
@@ -152,14 +151,14 @@
                                 <!--  Slide Three  -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-7.jpg"
                                                     alt="Partner image">
                                             </div>
                                         </div>
                                         <!-- Using a bare bones bootstrap card for my Partner links -->
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-4.jpg"
                                                     alt="Partner image">
@@ -171,14 +170,14 @@
                                 <!--  Slide Four -->
                                 <div class="carousel-item">
                                     <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-8.jpg"
                                                     alt="Partner image">
                                             </div>
                                         </div>
                                         <!-- Using a bare bones bootstrap card for my Partner links -->
-                                        <div class="col-4">
+                                        <div class="col-5 col-md-4">
                                             <div class="card box-shadow">
                                                 <img class="card-img" src="assets/partners/partner-3.jpg"
                                                     alt="Partner image">
@@ -214,7 +213,8 @@
                     <a href="hospitality.html" class="btn btn-learn-more">Learn more</a>
                 </div>
                 <div class="col-12 col-lg-5 order-1 order-lg-2">
-                    <img class="hospitality-benifit-img box-shadow" src="/assets/images/hosp-1.jpg" alt="Hospitality Image">
+                    <img class="hospitality-benifit-img box-shadow" src="assets/images/hosp-1.jpg"
+                        alt="Hospitality Image">
                 </div>
             </div>
 
@@ -231,7 +231,7 @@
                     <a href="retail.html" class="btn btn-learn-more">Learn more</a>
                 </div>
                 <div class="col-12 col-lg-5 order-1">
-                    <img class="retail-benifit-img box-shadow" src="/assets/images/retail-1.jpg" alt="Retail Image">
+                    <img class="retail-benifit-img box-shadow" src="assets/images/retail-1.jpg" alt="Retail Image">
                 </div>
             </div>
 
@@ -248,7 +248,7 @@
                     <a href="features.html" class="btn btn-learn-more">Learn more</a>
                 </div>
                 <div class="col-12 col-lg-5 order-1 order-lg-2">
-                    <img class="features-benifit-img box-shadow" src="/assets/images/feat-1.jpg" alt="Features Image">
+                    <img class="features-benifit-img box-shadow" src="assets/images/feat-1.jpg" alt="Features Image">
                 </div>
             </div>
 
@@ -276,12 +276,13 @@
             <div class="card mb-4">
                 <div class="row no-gutters justify-content-center align-items-center">
                     <div class="d-none d-md-block col-md-2">
-                        <img class="gold-meter-award box-shadow" src="assets/images/celebrate.jpg" alt="Touch AI celebration pic">
+                        <img class="gold-meter-award box-shadow" src="assets/images/celebrate.jpg"
+                            alt="Touch AI celebration pic">
                     </div>
                     <div class="col-12 col-md-8">
                         <h3 class="mb-4"> Touch AI Awarded the Golden meter award for Support!</h3>
-                        <!-- NESTED ROW FOR THE READ MORE BUTTON -->
-                        <div class="row justify-content-center align-items-end">
+                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                        <div class="row no-gutters justify-content-center">
                             <div class="col-12 col-lg-8 mb-4">
                                 <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
                                     data-target="#news-item-one" aria-expanded="true" aria-controls="collapseNewsOne">
@@ -315,11 +316,13 @@
             <div class="card mb-4">
                 <div class="row no-gutters justify-content-center">
                     <div class="d-none d-md-block col-md-2">
-                        <img class="licence-announcement box-shadow" src="assets/images/licence-announcement.jpg" alt="Licence Announcement Picture">
+                        <img class="licence-announcement box-shadow" src="assets/images/licence-announcement.jpg"
+                            alt="Licence Announcement Picture">
                     </div>
                     <div class="col-12 col-md-8">
                         <h3 class="mb-4"> Touch Ai surges past 200,000 licences Worldwide!</h3>
-                        <div class="row justify-content-center align-items-end">
+                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                        <div class="row no-gutters justify-content-center">
                             <div class="col-12 col-lg-8 mb-4">
                                 <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
                                     data-target="#news-item-two" aria-expanded="true" aria-controls="collapseNewstwo">
@@ -357,35 +360,35 @@
                     </div>
                     <div class="col-12 col-md-8">
                         <h3 class="mb-4"> New revamped and feature packed partner forum launched!</h3>
-                        <div class="row justify-content-center align-items-end">
-                            <div class="col-12 col-lg-8 mb-4">
-                                <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
-                                    data-target="#news-item-three" aria-expanded="true"
-                                    aria-controls="collapseNewsthree">
-                                    Read More
-                                </button>
-                            </div>
+                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                        <div class="row no-gutters justify-content-center"></div>
+                        <div class="col-12 col-lg-8 mb-4">
+                            <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
+                                data-target="#news-item-three" aria-expanded="true" aria-controls="collapseNewsthree">
+                                Read More
+                            </button>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="news-item-three" class="collapse" aria-labelledby="headingOne" data-parent="#further-reading">
-                    <div class="card-body box-shadow mb-4">
-                        <h4>The Golden Meter is Awarded for 6th successive year!</h4>
-                        <p>
-                            Congratulations to our Tech support department on recently being awarded the Golden meter
-                            award
-                            for excellence in Technical support. This award is voted on by dealers worldwide, and so,
-                            the
-                            Tech
-                            support department rightly feel very proud of this achievement. <br>At Touch AI,
-                            we consider Backup support to be paramount, we <strong>do not</strong> believe in
-                            supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
-                            team,
-                            guys who go above and beyond to meet our partners requirements.
-                        </p>
-                    </div>
+            <div id="news-item-three" class="collapse" aria-labelledby="headingOne" data-parent="#further-reading">
+                <div class="card-body box-shadow mb-4">
+                    <h4>The Golden Meter is Awarded for 6th successive year!</h4>
+                    <p>
+                        Congratulations to our Tech support department on recently being awarded the Golden meter
+                        award
+                        for excellence in Technical support. This award is voted on by dealers worldwide, and so,
+                        the
+                        Tech
+                        support department rightly feel very proud of this achievement. <br>At Touch AI,
+                        we consider Backup support to be paramount, we <strong>do not</strong> believe in
+                        supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
+                        team,
+                        guys who go above and beyond to meet our partners requirements.
+                    </p>
                 </div>
+            </div>
             </div>
 
         </article>
@@ -395,11 +398,16 @@
     <footer class="container-fluid page-footer">
         <div class="row no-gutters justify-content-center">
             <div class="col-12 col-lg-7 mb-4 order-lg-2 mt-lg-2 page-footer-links">
-                <a href="index.html" class="footer-nav-links hvr-underline-from-center active">Home</a><span class="ml-2 mr-2"> | </span>
-                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Hospitality</a><span class="ml-2 mr-2"> | </span>
-                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Retail</a><span class="ml-2 mr-2"> | </span>
-                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Features</a><span class="ml-2 mr-2"> | </span>
-                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Contact</a><span class="ml-2 mr-2"> | </span>
+                <a href="index.html" class="footer-nav-links hvr-underline-from-center active">Home</a><span
+                    class="ml-2 mr-2"> | </span>
+                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Hospitality</a><span
+                    class="ml-2 mr-2"> | </span>
+                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Retail</a><span
+                    class="ml-2 mr-2"> | </span>
+                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Features</a><span
+                    class="ml-2 mr-2"> | </span>
+                <a href="index.html" class="footer-nav-links hvr-underline-from-center">Contact</a><span
+                    class="ml-2 mr-2"> | </span>
                 <a href="index.html" class="footer-nav-links hvr-underline-from-center">About</a>
             </div>
             <div class="col-12 col-lg-3 order-lg-3 mb-4 mb-lg-0">
@@ -435,9 +443,9 @@
                 </a>
             </div>
             <div class="col-12 col-lg-6 order-lg-2 align-self-end">
-					<div class="Copyright">
-						<small>Copyright 2020 Touch AI all rights reserved</small>
-					</div>
+                <div class="Copyright">
+                    <small>Copyright 2020 Touch AI all rights reserved</small>
+                </div>
             </div>
         </div>
 
@@ -459,6 +467,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-</body
-
-</html>
+</body </html>
