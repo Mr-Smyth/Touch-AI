@@ -20,7 +20,8 @@ body {
 }
 
 /* STYLING FOR - THE MAIN ELEMENT */
-main {
+main,
+main .home-main{
     position: relative;
     background-color: #fff;
     width: 100%;
@@ -197,8 +198,10 @@ p {
 
 
 /* STYLING FOR - ACTIVE NAVBAR LINK */
-.navbar-dark .navbar-nav .active>.nav-link,
-.dropdown-item.active {
+
+.navbar-dark .navbar-nav .active,
+.dropdown-menu .dropdown-item.active,
+.footer-nav-links.active {
     background-color: #2e151b;
     font-weight: 700;
     color: #ddd;
@@ -355,11 +358,6 @@ p {
     overflow: hidden;
 }
 
-/* STYLING FOR - ACTIVE NAVIGATION LINK */
-.footer-nav-links.active {
-    font-weight: 700;
-    color: #ddd;
-}
 
 /* STYLING FOR - CREATE SMOOTH TRANSITION OF COLOR WHEN LINKS ARE IN HOVERED STATE - CREDIT CODE TO CODE INSTITUTE MODULE */
 .footer-nav-links:hover {
@@ -490,12 +488,17 @@ a.social-links .fab {
 
 @media (min-width: 1200px){
     /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED / LG-BREAKPOINT */
-    main {
+    main,
+    main .home-main {
         max-width: 1200px;
         left: 50%;
         margin-left: -600px;
         margin-top: -30px;
         margin-bottom: 50px;
+    }
+
+    main {
+        margin-top: 50px;
     }
 
     /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
