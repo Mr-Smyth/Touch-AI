@@ -20,8 +20,9 @@ body {
 }
 
 /* STYLING FOR - THE MAIN ELEMENT */
+/*  .HOME-MAIN CLASS IS SPECIFICALLY STYLING FOR HOME PAGE - ALSO SEE 1200PX MEDIA QUERY */
 main,
-main .home-main{
+.home-main{
     position: relative;
     background-color: #fff;
     width: 100%;
@@ -489,7 +490,7 @@ a.social-links .fab {
 @media (min-width: 1200px){
     /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED / LG-BREAKPOINT */
     main,
-    main .home-main {
+    .home-main {
         max-width: 1200px;
         left: 50%;
         margin-left: -600px;
