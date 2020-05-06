@@ -19,6 +19,8 @@ body {
     color: #555555;
 }
 
+
+/* ################################         COMMON - CONTAINERS*/
 /* STYLING FOR - THE MAIN ELEMENT */
 /*  .HOME-MAIN CLASS IS SPECIFICALLY STYLING FOR HOME PAGE - ALSO SEE 1200PX MEDIA QUERY */
 main,
@@ -29,6 +31,29 @@ main,
     text-align: center;
 }
 
+.intro-container,
+.partner-container {
+    padding: 0 20px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.partner-callout-container {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.further-reading-container {
+    padding: 0 40px;
+}
+
+.hospitality-container {
+    padding: 40px 0;
+
+}
+
+
+/* ################################################################################################################################# */
 
 /* ################################             COMMON - BUTTONS */
 
@@ -65,7 +90,7 @@ main,
     -o-transition: all 0.55s ease-in-out;
 }
 
-
+/* ################################################################################################################################# */
 
 /* ################################              COMMON - HEADINGS & PARAGRAPHS */
 
@@ -119,6 +144,8 @@ p {
     line-height: 26px;
 }
 
+/* ################################################################################################################################# */
+
 /* ################################         COMMON - GENERAL STYLING */
 
 .box-shadow {
@@ -127,29 +154,13 @@ p {
     box-shadow: 0 1px 6px 0 rgb(46,21,27);
 }
 
-
 /* ################################################################################################################################# */
 
-/* ################################         COMMON - CONTAINERS*/
-.intro-container,
-.partner-container {
-    padding: 0 20px;
-    width: 100%;
-    margin-bottom: 80px;
-}
-
-.partner-callout-container {
-    padding: 10px 20px;
-    margin-bottom: 50px;
-}
-
-.further-reading-container {
-    padding: 0 40px;
-}
 
 
 
-/* ################################################################################################################################# */
+
+
 
 /* ###################################################################         NAVBAR STYLING */
 
@@ -286,7 +297,8 @@ p {
 
 .hospitality-benifit-img,
 .retail-benifit-img,
-.features-benifit-img {
+.features-benifit-img,
+.hospitality-page-img {
     width: 100%;
     max-width: 500px;
 }
@@ -323,7 +335,8 @@ p {
 }
 
 .further-reading-container h2::before,
-.benefits-container h3::before {
+.benefits-container h3::before,
+.hospitality-container h3::before {
     content: '';
     display: block;
     background: rgb(46,21,27);
@@ -429,15 +442,6 @@ a.social-links .fab {
 
 /* ###################################################################   MEDIA QUERYS    */
 
-@media (min-width: 576px){
-
-    /* ALLOW BENEFITS IMAGES TO GROW SLIGHTLY FROM MOBILE TO SMALL TABLET */
-    .hospitality-benifit-img,
-    .retail-benifit-img,
-    .features-benifit-img {
-        min-height: 300px;
-      }
-}
 
   
 @media (min-width: 992px){
@@ -488,7 +492,7 @@ a.social-links .fab {
 
 
 @media (min-width: 1200px){
-    /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED / LG-BREAKPOINT */
+    /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED - FOR BOTH MAIN(SITE) AND .HOME-MAIN(STYLE SPECIFICALLY FOR HOME PAGE) / LG-BREAKPOINT */
     main,
     .home-main {
         max-width: 1200px;
@@ -499,18 +503,30 @@ a.social-links .fab {
     }
 
     main {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
-    .expand-left-container {
+    .expand-left {
         position: relative;
         margin-left: -60px;     
     }
 
-    .expand-right-container {
+    .expand-right {
         position: relative;
-        margin-right: -60px;     
+        margin-right: -60px;      
+    }
+
+    .expand-up-right {
+        position: relative;
+        margin-top: -60px;
+        margin-right: -60px;
+    }
+
+    .expand-down-right {
+        position: relative;
+        margin-bottom: -60px;
+        margin-right: -60px;
     }
 
     .partner-callout-container {
