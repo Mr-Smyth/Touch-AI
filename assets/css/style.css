@@ -47,7 +47,7 @@ main,
     padding: 0 40px;
 }
 
-.hospitality-container {
+.page-container {
     padding: 40px 0;
 
 }
@@ -341,7 +341,7 @@ p {
 
 .further-reading-container h2::before,
 .benefits-container h3::before,
-.hospitality-container h3::before {
+.page-container h3::before {
     content: '';
     display: block;
     background: rgb(46,21,27);
