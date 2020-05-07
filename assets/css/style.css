@@ -464,8 +464,7 @@ a.social-links .fab {
     width: 40%;
 }
 
-.full-width-input,
-.half-width-input {
+.full-width-input{
     font-family: "Arial", sans-serif;
     background-color: #da7b932c;
     width: 100%;
@@ -497,8 +496,7 @@ a.social-links .fab {
     content: "*";
     margin-left: 5px;
     color: red;
-
-
+}
 /* ################################################################################################################################# */
 
 /* ###################################################################   MEDIA QUERYS    */
@@ -593,7 +591,7 @@ a.social-links .fab {
     .partner-callout-container {
         position: relative;
         margin-left: -40px;
-        width: 1280px
+        width: 1280px;
     }
 
     .partner-callout-container h2 {
@@ -614,5 +612,4 @@ a.social-links .fab {
  
   
 
-  
   
