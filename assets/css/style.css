@@ -460,6 +460,10 @@ a.social-links .fab {
     font-weight: 700;
 }
 
+.half-row {
+    width: 40%;
+}
+
 .full-width-input,
 .half-width-input {
     font-family: "Arial", sans-serif;
@@ -474,7 +478,7 @@ a.social-links .fab {
 }
 
 .half-width-input {
-    width: 40%;
+    width: 50%;
 }
 
 .full-width-input:hover,
@@ -487,7 +491,6 @@ a.social-links .fab {
 .half-width-input:focus {
     background-color: #dda0af2c;
     box-shadow: none;  
-
 }
 
 .input-required::after {
