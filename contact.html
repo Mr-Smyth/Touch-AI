@@ -96,12 +96,44 @@
         <!-- CONTACT FORM - USING BOOTSTRAP - USING FORM-GROUPS AND GRID -->
 
         <form class="container-fluid contact-form">
-            <div class="row page-section-spacer">
-                <div class="col-4">
-                    <label for="full_name">Full Name</label>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <label for="full_name" class="input-label input-required">Full Name</label>
                 </div>
                 <div class="col-12">
-                    <input class="text-input" type="text" name="full_name" id="fullname" placeholder="Full Name" required>
+                    <input class="full-width-input" type="text" name="full_name" id="fullname" required>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <label for="company_name" class="input-label input-required">Your Company Name</label>
+                </div>
+                <div class="col-12">
+                    <input class="full-width-input" type="text" name="company_name" id="companyname" required>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <label for="email" class="input-label input-required">Your Email Address</label>
+                </div>
+                <div class="col-12">
+                    <input class="full-width-input" type="email" name="email_address" id="email" required>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <label for="postcode" class="input-label">Your Eircode / Postcode</label>
+                </div>
+                <div class="col-12">
+                    <input class="half-width-input" type="text" name="postcode" id="postcode" required>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                    <label for="phone_number" class="input-label">Your Contact Number</label>
+                </div>
+                <div class="col-12">
+                    <input class="half-width-input" type="text" name="phone_number" id="phone_number" required>
                 </div>
             </div>
         </form>

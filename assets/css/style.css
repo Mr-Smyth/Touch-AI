@@ -449,15 +449,44 @@ a.social-links .fab {
 /* ###################################################################   CONTACT FORM   */
 
 .contact-form {
-    
-    box-shadow: inset 0px 0px 10px #2e151b; 
-    width: 80%;
-    padding: 0 20px;
-    padding-bottom: 50px;
+    width: 90%;
+    padding: 20px;
     text-align: start;
     margin-bottom: 100px;
 }
 
+.input-label {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.full-width-input,
+.half-width-input {
+    font-family: "Arial", sans-serif;
+    background-color: #da7b932c;
+    width: 100%;
+    height: 2.2rem;
+    border: 1px solid #2e151b;
+    box-shadow: inset 0px 0px 10px #2e151b; 
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.half-width-input {
+    width: 40%;
+}
+
+.full-width-input:hover,
+.half-width-input:hover {
+    border-color: #000;  
+    box-shadow: none;  
+}
+
+.input-required::after {
+    content: "*";
+    margin-left: 5px;
+    color: red;
 
 
 /* ################################################################################################################################# */
