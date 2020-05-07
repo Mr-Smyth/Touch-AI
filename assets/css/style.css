@@ -476,20 +476,22 @@ a.social-links .fab {
     font-weight: 500;
 }
 
-.half-width-input {
+/* .half-width-input {
     width: 50%;
-}
+} */
 
-.full-width-input:hover,
-.half-width-input:hover {
+.full-width-input:hover {
     border-color: #000;  
     box-shadow: none;  
 }
 
-.full-width-input:focus,
-.half-width-input:focus {
+.full-width-input:focus {
     background-color: #dda0af2c;
     box-shadow: none;  
+}
+
+.med-height-input {
+    height: 100px;
 }
 
 .input-required::after {
