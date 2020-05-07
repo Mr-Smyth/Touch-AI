@@ -76,9 +76,14 @@ main,
 /* STYLING FOR - BUTTON TYPE OF INFO */
 .btn-info,
 .btn-learn-more,
-.btn-read-more {
+.btn-read-more,
+.btn-submit {
     background: #2e151b;
     box-shadow: 0 5px 5px 0 rgba(32,33,36,0.50);
+}
+
+.btn-submit {
+    background: #1c3334;
 }
 
 /* STYLING FOR - BUTTON IN HOVER STATE */
@@ -465,9 +470,10 @@ a.social-links .fab {
 }
 
 .full-width-input,
-.med-height-input{
+.med-height-input,
+.full-height-input{
     font-family: "Arial", sans-serif;
-    background-color: #da7b932c;
+    background-color: #da7b9367;
     width: 100%;
     height: 2.2rem;
     border: 1px solid #2e151b;
@@ -482,7 +488,9 @@ a.social-links .fab {
     box-shadow: none;  
 }
 
-.full-width-input:focus {
+.full-width-input:focus,
+.med-height-input:focus,
+.full-height-input:focus {
     background-color: #dda0af2c;
     box-shadow: none;  
 }
@@ -492,11 +500,17 @@ a.social-links .fab {
     max-height: 130px;
 }
 
+.full-height-input {
+    height: auto;
+}
+
 .input-required::after {
     content: "*";
     margin-left: 5px;
     color: red;
 }
+
+
 /* ################################################################################################################################# */
 
 /* ###################################################################   MEDIA QUERYS    */
