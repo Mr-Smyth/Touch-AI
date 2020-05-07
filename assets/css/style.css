@@ -464,7 +464,8 @@ a.social-links .fab {
     width: 40%;
 }
 
-.full-width-input{
+.full-width-input,
+.med-height-input{
     font-family: "Arial", sans-serif;
     background-color: #da7b932c;
     width: 100%;
@@ -475,10 +476,6 @@ a.social-links .fab {
     font-size: 1.2rem;
     font-weight: 500;
 }
-
-/* .half-width-input {
-    width: 50%;
-} */
 
 .full-width-input:hover {
     border-color: #000;  
@@ -491,7 +488,8 @@ a.social-links .fab {
 }
 
 .med-height-input {
-    height: 100px;
+    height: auto;
+    max-height: 130px;
 }
 
 .input-required::after {
