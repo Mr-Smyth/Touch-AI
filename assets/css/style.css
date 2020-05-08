@@ -145,9 +145,9 @@ h6 {
 }
 
 p {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    line-height: 26px;
+    font-size: .8rem;
+    letter-spacing: .8px;
+    line-height: 22px;
 }
 
 /* ################################################################################################################################# */
@@ -557,6 +557,12 @@ a.social-links .fab {
     
     h6 {
         font-size: .6rem
+    }
+
+    p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        line-height: 26px;
     }
 
 }
