@@ -423,7 +423,7 @@ a.social-links .fab {
   
 /* STYLING FOR - SOCIAL LINKS HOVE AND COLOR CHANGE */
 .social-links .fab:hover {
-    text-shadow: 0px 0px 8px rgb(240, 239, 175);
+    text-shadow: 0px 0px 10px rgb(240, 239, 175);
 }
   
 .social-links .fa-twitter:hover {
