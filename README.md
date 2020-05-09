@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[View the website on GitHub Pages](https://mr-smyth.github.io/ai-touch/)
+[View the website on GitHub Pages](https://mr-smyth.github.io/Touch-AI/)
 </div>
 
 
