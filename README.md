@@ -18,25 +18,25 @@
 </div>
 
 
-This is a project website for a fictious comapany called Touch AI. They develop Point of sale software for the retail and Hospitality trade.
-And what really makes this Touch AI stand out against its competitors in the Point of Sale sector, is its direct clear information and uncluttered layout.
+This is a project website for a fictitious company called Touch AI. They develop Point of sale software for the retail and Hospitality trade.
+And what really makes this Touch AI Website stand out against its competitors in the Point of Sale sector, is its direct clear information and uncluttered fresh layout.
 
 
 ## UX
 
 
-This project will be submitted for my User Centric Front End Development and first milestone project, in my Full Stack Software Development course. The project will produce a working static front-end website, demonstrating the technologies i have learned so far.
+This project will be submitted for my User Centric Front End Development and first milestone project, in my Full Stack Software Development course. The project will produce a working static front-end website, demonstrating the technologies I have learned so far.
 
 ---
 
 Touch AI need a B2B website that will reflect their professional standards and the respectable image they have achieved.
 
-The website will be primarily aimed at the POS dealer maket, not the end user.
+The website will be primarily aimed at the POS dealer market, not the end user.
 The goal of the website will be to build a partner network of dealers. The website will be a source of clear and accurate information, that builds confidence, and encourages them to request a demo pack, or otherwise make contact.
 
-The Website must contain all information relevant to the features of the Software. It must also promote the companys emphasis on Backup support - as priority - in the companys philosophy, and the means by which it achieves this.
+The Website must contain all information relevant to the features of the Software. It must also promote the company emphasis on Backup support - as priority - in the company philosophy, and the means by which it achieves this.
 
-The information must obviously be accurate, and presented in a clear and concise manor.
+The information must obviously be accurate, and presented in a clear and concise manner.
 
 _( "keep it simple, stupid" - U.S. Navy 1960)_
 
@@ -44,19 +44,20 @@ The visitor to the website will almost certainly have, or will intend to visit a
 
 ## User Stories 
 
-* As a user i want to easily find the information i want.
-* As a user i want to gain in-depth information from the website.
-* As a user i want to feel that the company is reputable.
-* As a user i want to know that i can easily and reliably contact someone.
-* As management i want a professional responsive online presence.
-* As management i want an accurate point of information quickly and easily accessible for partners.
-* As management i want to showcase our philosophy of support first.
-* As tech support i want to see how are services can be showcased to the clients.
+* As a user I want to easily find the information I want.
+* As a user I want to gain in-depth information from the website.
+* As a user I want to feel that the company is reputable.
+* As a user I want to know that I can easily and reliably contact someone.
+* As management I want a professional responsive online presence.
+* As management i want existing partners to be promoted.
+* As management I want an accurate point of information quickly and easily accessible for partners.
+* As management I want to showcase our philosophy of support first.
+* As tech support I want to see how are services and efforts can be showcased to the clients.
 
 ---
 <div align="center">
 
-#### Oppertunities arising from user stories:
+#### Opportunities arising from user stories:
 
 </div>
 
@@ -66,21 +67,21 @@ The visitor to the website will almost certainly have, or will intend to visit a
 |-----|:------:|:-----:|
 |**Online Presence** | 5 | 5 |
 |**Showcase Product** | 5 | 5 |
-|**Create a point of contact** | 5 | 5 |
+|**Create a simple point of contact** | 5 | 5 |
 |**Make responsive for Mobile/Tablet** | 5 | 5 |
 |**Showcase backup support**| 4 | 5 |
-|**Showcase existing Partners** | 3 | 5 |
+|**Showcase existing Partners** | 4 | 5 |
 |~~Create a Faq area for partners~~ | 2 | 1 |
 |~~Create an online forum for partners~~ | 2 | 1 |
 
 
 
-ultimatly for the first release we will use the above table to target the most feasible elements.
+Ultimatly for the first release we will use the above table to target the most feasible elements.
 
 ---
 
-## Wireframe mockups:
-I made these of a medium fidelity, deliberatly leaving out promo images as they have not been finalised: I included some colour to test the appearance.
+## Wireframe mock-ups:
+I made these of a medium fidelity, deliberately leaving out promo images as they have not been finalized: I included some colour to test the appearance.
 
 * [Home screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/home-screen-wireframe.pdf)
 
@@ -99,20 +100,20 @@ I made these of a medium fidelity, deliberatly leaving out promo images as they 
 
 ### HTML: 
 
-Used [Bootstrap](https://getbootstrap.com) extensively throughout the HTML, with some [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) also. This is due to the ease and speed achievable with bootstrap.
+Used [Bootstrap](https://getbootstrap.com) extensively throughout the HTML, with some [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) also. This is due to the ease and speed at which you can layout and space objects with bootstrap.
 
 ### CSS:
 
-Really wanted to make the css as lightweight as i possibly could. Studied new naming methods like BEM, but decided not to use it for this project, instead i will stick with solid simple but descriptive class names.
+Strived to make the css as lightweight as possible, using more left to right html built in bootstrap classes to position items instead of multiple css id's and classes. Studied new naming methods like BEM, but decided not to use it for this project, instead I will stick with solid simple but descriptive class names.
 
 ### Colours:
 
-Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colors of the site, matching with the own-styled logo.
-A white center trunk when the screen is expanded to deskto type sizes, will then contrast nicely with the [#555555](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23555555&oq=%23555555&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text
+Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colours of the site, matching with the own-styled logo. Purple is the color of royalty, luxury, power, wisdom, and creativity, wheras pink is a confident color.
+A white center trunk when the screen is expanded to desktop type sizes, will then contrast nicely with the [#555555](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23555555&oq=%23555555&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text.
 
 ### Images:
 
-* All imaes used are from [Unsplash](https://unsplash.com/)
+* All images used are from [Unsplash](https://unsplash.com/)
 
 * Hero image: Layered 2 images together using [Gimp](https://www.gimp.org/)  to include the subtle eye, to achieve a more catching hero image. Added a light pink opaque overlay to provide better contrast with hero text. 
 
@@ -126,34 +127,34 @@ A white center trunk when the screen is expanded to deskto type sizes, will then
 
 # Features
 
-#### common features accross the site:
+#### common features across the site:
 * As this site is designed in the Mobile first screen sizes, each page of the website is responsive. 
-* They each contain a common navigation bar with the convention of a left hand logo with links on the right.
-* Each page also contains a common footer, with site navigation, contact details and social media links. and another call to action button for making contact.
+* They each contain a common navigation bar with the convention of a left-hand logo with links on the right.
+* Each page also contains a common footer, with site navigation, contact details and social media links, and another call-to-action button for making contact.
 
 
 #### Home - Landing page
 
-* Hero image with promotional text and an call to action to "Take a Look" which leads to more information.
-* Contains an brief introduction to our product, with links to more information.
+* Hero image with promotional text and a call to action to "Take a Look" which leads to more information.
+* Contains a brief introduction to our product, with links to more information.
   
-* Contains a carousel of reputible existing partners.
+* Contains a carousel of reputable existing partners.
   
-* Has a call to action button on the Hero image.
+* Has a call-to-action button on the Hero image.
 * 
   
 * Has a section with some brief information on various possible implementations of the software, so as not to overwhelm. The user can then Learn More.
   
-* Has several call to action buttons relating to more information and making contact.
+* Has several call-to-action buttons relating to more information and making contact.
   
 #### Hospitality:
-* Contains more in-depth information regarding the Hospitality applications of Touch AI. Which include Handheld ordering and Kitchen order organising.
+* Contains more in-depth information regarding the Hospitality applications of Touch AI. Which include Handheld ordering and Kitchen order organizing.
 
 #### Retail:
 * Contains more in-depth information regarding the Retail applications of Touch AI. Including Sock control and loyalty.
 
 #### Features:
-* Explains some of the core features of the system. This is again spit between the two main sectors of Retail and Hospitality, with a third more general section.
+* Explains some core features of the system. This is again spit between the two main sectors of Retail and Hospitality, with a third more general section.
 
 #### About:
 * A brief history of AI Pos.
@@ -164,16 +165,16 @@ A white center trunk when the screen is expanded to deskto type sizes, will then
 #### Contact us:
 * Some more site common styling with a related image and some information about contacting us.
   
-* A contact form, which regests:
+* A contact form, which contains:
     * Name
     * Business Name
-    * Eir/Zip code
+    * Postcode
     * Telephone Number
     * email
     * Contact number
     * How did you find out about us message box
     * How would you like to be contacted Radio buttons
-    * Message box   
+    * Message box 
 
 
 ---
@@ -190,11 +191,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 # Technologies Used:
 
-* **HTML and Css** programming languages where used as the core building language of this website.
+* **HTML and Css** programming languages were used as the core building language of this website.
   
 * [Gitpod](https://www.gitpod.io/) was used alongside [VS Studio code](https://code.visualstudio.com/) to develop this website.
   
-* [Bootstrap 4.4 CDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) was used extensivly on this website build, which greatly simplified the responsive element of the building process.
+* [Bootstrap 4.4 CDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) was used extensively on this website build, which greatly simplified the responsive element of the building process.
   
 * [Font Awesome](https://fontawesome.com/) was used to provide icons for the website.
   
@@ -208,10 +209,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 # Issues during development:
 
-* Trying to implement the center white column in larger screen sizes, had planned on using an absolute positioned block, with the rest of the page rendered on top. What i found was that when resizing the screen (zooming) the absolute block would not resize in the expected manor, and any of the content would have needed a position relative to appear on top of the absolute div. Therefore it seemed like the wrong or messy way to do it. 
+* Trying to implement the centre white column in larger screen sizes, had planned on using an absolute positioned block, with the rest of the page rendered on top. What I found was that when resizing the screen (zooming) the absolute block would not resize in the expected manner, and any of the content would have needed a position relative to appear on top of the absolute div. Therefore, it seemed like the wrong or messy way to do it. 
   I therefore decided to use the main section and style it white, and set the offset content to have negative margins.
 
-* Had an issue with center white div fixed at 1200px wide, which is what i need for a fixed central column, but one that will become full width on smaller screens. Being a fixed parent width div, to essentially the entire page content created the problem where i couldent set my bootstrap grid columns to be full width on smaller screens, as it was using 1200px as full width for its 12 col setting. So i setup a media query to strip the main elemennt of its negative margins and set width to 100%, allowing the children Bootstrap grids to flex naturally.
+* Had an issue with centre white div fixed at 1200px wide, which is what I need for a fixed central column, but one that will become full width on smaller screens. Being a fixed parent width div, to essentially the entire page content created the problem where i couldnt set my bootstrap grid columns to be full width on smaller screens, as it was using 1200px as full width for its 12 col setting. So i set up a media query to strip the main element of its negative margins and set width to 100%, allowing the children Bootstrap grids to flex naturally.
 
 <!-- 
 # Testing
@@ -259,12 +260,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Media
-* The photos used in this site were obtained from Unsplash and privatly owned by me.
+* The photos used in this site were obtained from Unsplash and privately owned by me.
 * Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/)
 
 
 ## Acknowledgements
-* I received inspiration for this project from the eventual realisation of what was said in the instruction. If in doubt stick to something you know.
+* I received inspiration for this project from the eventual realization of what was said in the instruction. As advised, if in doubt stick to something you know.
 
 ## Disclaimer
 The content and layout of this website is for educational purposes only. -->
