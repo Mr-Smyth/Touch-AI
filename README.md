@@ -96,6 +96,8 @@ I made these of a medium fidelity, deliberately leaving out promo images as they
 * [About us screen wireframe](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/about-screen-wireframe.pdf)
 
 ---
+<br>
+
 # Considered styling
 
 ### HTML: 
@@ -104,7 +106,8 @@ Used [Bootstrap](https://getbootstrap.com) extensively throughout the HTML, with
 
 ### CSS:
 
-Strived to make the css as lightweight as possible, using more left to right html built in bootstrap classes to position items instead of multiple css id's and classes. Studied new naming methods like BEM, but decided not to use it for this project, instead I will stick with solid simple but descriptive class names.
+A single style sheet will provide style for all pages.
+The aim was to make the css as lightweight as possible, using more left to right html built in bootstrap classes and re-using own style classes, to position and style items. Studied new naming methods like BEM, but decided not to use it for this project, instead I will stick with solid simple but descriptive class names.
 
 ### Colours:
 
@@ -117,19 +120,14 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 * Hero image: Layered 2 images together using [Gimp](https://www.gimp.org/)  to include the subtle eye, to achieve a more catching hero image. Added a light pink opaque overlay to provide better contrast with hero text. 
 
-
 ---
-
 <br>
-
-
-
 
 # Features
 
 #### common features across the site:
-* As this site is designed in the Mobile first screen sizes, each page of the website is responsive. 
-* They each contain a common navigation bar with the convention of a left-hand logo with links on the right.
+* This website was designed from the mobile screensize first, as a result each webpage responds neatly to all screen sizes. 
+* They each contain a common navigation bar  with the convention of a left-hand logo with the site navigation links on the right.
 * Each page also contains a common footer, with site navigation, contact details and social media links, and another call-to-action button for making contact.
 
 
