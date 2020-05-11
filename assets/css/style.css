@@ -583,30 +583,30 @@ a.social-links .fab {
     /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
     .expand-left {
         position: relative;
-        margin-left: -60px;     
+        margin-left: -40px;     
     }
 
     .expand-right {
         position: relative;
-        margin-right: -60px;      
+        margin-right: -40px;      
     }
 
     .expand-up-right {
         position: relative;
         margin-top: -60px;
-        margin-right: -60px;
+        margin-right: -80px;
     }
 
     .expand-down-right {
         position: relative;
         margin-bottom: -60px;
-        margin-right: -60px;
+        margin-right: -80px;
     }
 
     .partner-callout-container {
         position: relative;
-        margin-left: -40px;
-        width: 1280px;
+        margin-left: -28px;
+        width: 1250px;
     }
 
     .partner-callout-container h2 {
