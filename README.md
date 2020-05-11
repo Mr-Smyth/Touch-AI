@@ -221,7 +221,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 ---
 
-## Features Left to Implement
+## Features Left to Implement in future releases
 
 * A further set of pages relating to the individual products in more specific detail. This would branch off from the current Hospitality and Retail sections, into more specific areas such as Handheld ordering, Online sales, Kitchen Printing/Video ordering etc. With links back to case studies where Touch AI, helped to solve a problem with its software.
 
@@ -316,6 +316,11 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
   The Touch AI Website achieves this by providing details of the relaunch of the partner support forum.
 
 
+### Initial testing:
+
+#### Responsivness:
+
+This was done using Google chrome developer tools, for the initial stages
 
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
