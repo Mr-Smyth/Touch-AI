@@ -309,7 +309,11 @@ p {
 .hospitality-benifit-img,
 .retail-benifit-img,
 .features-benifit-img,
-.hospitality-page-img {
+.hospitality-page-img,
+.retail-page-img,
+.feature-page-img,
+.about-page-img,
+.contact-page-img {
     width: 100%;
     max-width: 500px;
 }
