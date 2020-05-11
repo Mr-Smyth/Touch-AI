@@ -24,7 +24,7 @@ body {
     font-family: "Poppins" ,sans-serif;
     font-weight: 400;
     background-color: #da7b9367;
-    color: #555555;
+    color: #424242;
 }
 
 
@@ -562,9 +562,9 @@ a.social-links .fab {
     }
 
     p {
-        font-size: 1rem;
+        font-size: .9rem;
         letter-spacing: 1px;
-        line-height: 26px;
+        line-height: 25px;
     }
 
 }
