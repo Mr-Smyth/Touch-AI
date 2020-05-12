@@ -440,6 +440,12 @@ All devices tested worked as expected.
 
 <br>
 
+## Unresolved issues / Known Bugs
+<br>
+An exception on IE11 - where the browser did not render the shadow effects or any of the simple flexbox classes. The resulting effect is that on IE 11, Any text positioned using flexbox type classes are not rendering as expected. Also some shadow effects are not compatible with the IE11 Browser.  I have not been able to find a workaround for this as yet.
+<br>
+<br>
+
 ---
 <br>
 
