@@ -399,33 +399,27 @@ It is possible to run a clone of this website on your own local machine:
 
 <br>
 
-
-
-****
-
-
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-  
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-------------------------------------------------------------------------------------------------------------------
-
+---
+<br><br>
 
 # Credits
-## Content
+<br>
+
+## Content and code
+
+* The content of the pages is primarily my own personal knowledge of the Epos Trade from over 20 years of experience in the industry. However on AI possibilities i read a [Medium](https://medium.com/@ccspos/ai-integration-in-pos-system-enhances-the-software-and-restaurant-business-bc4de5eac090) and a [Retail CIO](https://artificial-intelligence-apac.retailciooutlook.com/cxoinsights/pos-systems-can-now-become-artificial-intelligence-weapons--nid-145.html) article specifically on the possibilities of AI in Retail to sharpen my knowledge and i took some influence from there on specific AI related topics.
+
 * I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
-* Shadows - Read articles on Box shadows in CSS tricks, implemented the ideas in my own way.
-  * H1 text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/)
-* Used [CSS Gradient](https://cssgradient.io/) to achieve a few subtle background colours
-* The text for section Y was copied from the Wikipedia article Z
-* 
+
+
+* Shadows - Read articles on Box shadows in CSS tricks, but implemented the ideas in my own way.
+  
+* H1 text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/)
+  
+* Used [CSS Gradient](https://cssgradient.io/) to achieve a few subtle background colours, most noticably on the navigation hover effect.
+
+* Took a great deal of help, from [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) in understanding certain behaviors relating to negative margins and Absolute and Relative relationships.
+
 
 
 ## Media
@@ -434,7 +428,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Acknowledgements
-* I received inspiration for this project from the eventual realization of what was said in the instruction. As advised, if in doubt stick to something you know.
+* I received inspiration for this project from the eventual realization of what was said in the instructions. As advised, if in doubt stick to something you know. I have always searched for websites that give a clear uncluttered view when dealing with this exact subject in the past, and all too often these types of websites, just feel like the owners have decided to just cram everything in. Often in life - Less is More..
 
 ## Disclaimer
 The content and layout of this website is for educational purposes only.
