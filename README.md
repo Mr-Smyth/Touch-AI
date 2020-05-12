@@ -396,9 +396,9 @@ It is possible to run a clone of this website on your own local machine:
 1.  Go to the repository page for Touch-AI. ([Click Here](https://github.com/Mr-Smyth/Touch-AI))
 2.  Above the file area, click on the green **Clone or Download** link.
 3.  Click on the copy symbol to the right of the [URL](https://github.com/Mr-Smyth/Touch-AI.git).
-4.  On your local computer, navigate to the desired containing folder, you want to clone the project to, and right click and open [Git Bash](https://git-scm.com/downloads) (or similar command prompt).
+4.  On your local computer, navigate to the desired containing folder, you want to clone the project to, and right click and open [Git Bash](https://git-scm.com/downloads) *(or similar command prompt)*.
 5.  Type `git clone` then right click and paste the URL.
-6.  The line should look something like this: `$ git clone https://github.com/Mr-Smyth/Touch-AI.git.
+6.  The line should look something like this: `$ git clone https://github.com/Mr-Smyth/Touch-AI.git`.
 7.  Press Return or Enter and your clone will be created.
 
 
