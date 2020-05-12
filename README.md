@@ -13,9 +13,10 @@
 
 
 
+<div align="center">
 
 [View the website on GitHub Pages](https://mr-smyth.github.io/Touch-AI/)
-
+</div>
 
 
 This is a project website for a fictitious company called Touch AI. They develop Point of sale software for the retail and Hospitality trade.
@@ -56,10 +57,10 @@ The visitor to the website will almost certainly have, or will intend to visit a
 * As tech support I want to see how are services and efforts can be showcased to the clients.
 
 ---
-
+<div align="center">
 
 #### Opportunities arising from user stories:
-
+</div>
 
 
  
@@ -147,7 +148,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 # Features
 
-#### common features across the site:
+#### Common features across the site:
 
 * This website was designed from the mobile screen size first, as a result of some chosen media queries for @992px and @1200px, each web page responds neatly to all screen sizes. 
  
