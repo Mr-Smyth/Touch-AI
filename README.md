@@ -78,7 +78,7 @@ The visitor to the website will almost certainly have, or will intend to visit a
 <br>
 </div>
 
-
+<div align="center">
  
 
 |Opportunities | Importance | Viability / Feasibility
@@ -93,6 +93,7 @@ The visitor to the website will almost certainly have, or will intend to visit a
 |~~Create a Faq area for partners~~ | 2 | 1 |
 |~~Create an online forum for partners~~ | 2 | 1 |
 
+</div>
 <br>
 
 Ultimately for the first release we will use the above table to target the most feasible elements.
