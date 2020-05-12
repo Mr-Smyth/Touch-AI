@@ -74,7 +74,7 @@ The visitor to the website will almost certainly have, or will intend to visit a
 <br>
 <div align="center">
 
-#### Opportunities arising from user stories:
+## Opportunities arising from user stories:
 <br>
 </div>
 
