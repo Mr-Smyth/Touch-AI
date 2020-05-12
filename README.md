@@ -171,7 +171,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 ### Images:
 
-* All images used are from [Unsplash](https://unsplash.com/)
+* All images used are royalty free from [Unsplash](https://unsplash.com/)
 
 * **Hero image:** Layered 2 images together using [Gimp](https://www.gimp.org/) to include the subtle eye, to achieve a more catching hero image. Added a light pink opaque overlay to provide better contrast with hero text. 
 
