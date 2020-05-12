@@ -207,7 +207,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
   
 * Some information about contacting Touch AI.
   
-* A contact form, which contains:
+* A responsive contact form, which contains:
     * Name
     * Business Name
     * Postcode
@@ -218,22 +218,29 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
     * How would you like to be contacted Radio buttons
     * Message box 
 
+<br>
 
 ---
+<br>
 
-## Features Left to Implement in future releases
+## Features considering to Implement in future releases
 
 * A further set of pages relating to the individual products in more specific detail. This would branch off from the current Hospitality and Retail sections, into more specific areas such as Handheld ordering, Online sales, Kitchen Printing/Video ordering etc. With links back to case studies where Touch AI, helped to solve a problem with its software.
 
 *  To be more useful as a point of information, a more specific downloads section or FAQ site would be useful for downloading brouchures, spec sheets etc.
   
 * A Blog page, i feel that news stories and case studies of partner intallations and similar news stories does create a more solid online image, and creates confidence.
-  
+
+* A video demonstration page.
+<br><br>
+
 ---
 <br>
 
 
 # Technologies Used:
+<br>
+
 
 * **HTML and Css** programming languages were used as the core building language of this website.
   
@@ -253,6 +260,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 # Issues during development:
+<br>
 
  **Trying to implement the centre white column in larger screen sizes**:
   
@@ -269,8 +277,9 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
 <br>
 
 # Testing
+<br>
 
-### Checking with Touch AI's needs:
+## Checking with Touch AI's needs:
 
 * **_As a user I want to easily find the information I want:_**
   
@@ -316,32 +325,87 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
   The Touch AI Website achieves this by providing details of the relaunch of the partner support forum.
 
 
-### Initial testing:
+<br><br><br>
+## Responsivness and Rendering:
 
-#### Responsivness:
+This was initially done using Google chrome developer tools, for the initial stages.
 
-This was done using Google chrome developer tools, for the initial stages
+Once the Website was completed, I then put my code through some validation checks using the following resourses:
 
+* [Autoprefixer](https://autoprefixer.github.io/) was used to parse my CSS and add vendor prefixes where needed.
+* [CanIuse](https://caniuse.com) was used for checking on various features which i used. I found a worrying lack of Flexbox compatibility associated with IE 11.
+* [W3C Validator](https://validator.w3.org/) was used to check the HTML.
+* [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) was used to check my style.css.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I then used the following browsers directly on my own PC's to check layouts, and links of the website:
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* Chrome version 81.
+* Edge version 81.
+* Opera version 68.
+* Firefox version 76.
+* IE 11.
+  
+I then used [SauceLabs](https://saucelabs.com/) to verify the layout and links on Safari version 13.1.
 
-1. Contact form:
-   1. Go to the "Contact Us" page.
-   2. Try to submit the empty form and verify that an error message about the required fields appears.
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
-   
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+On Each Browser i performed a simulated visit, Querying various parts of the website to test my User Stories. All eventualities led to the contact page in a minimum number of clicks, where i experimented with trying to submit an empty form, or a form missing any of the key required fields.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I then checked on the various devices i have available to me:
+* A Samsung Galaxy Tab 10".
+* A Samsung S7 and S8.
+* An Apple Iphone 9.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+<br><br>
 
+## Testing Results:
 
+* All validations on the HTML returned with no errors.
+* The CSS Validation, showed warnings for the vendor prefixes, which are required for cross browser support.
+* All browsers rendered and links behaved as required, including form submissions.
+* **An exception to this was on IE11, where the browser did not render the shadow effects or any of the simple flexbox classes. I have not been able to find a workaround for this as yet.**
+* Each browser carried out the simulated visit as expected and satisfied all of the user stories.
+
+All devices tested worked as expected.
+<br><br><br>
 
 # Deployment
+<br>
+
+## GitHub Pages:
+
+To deploy this website using GitHub pages:
+
+1.  Log in to the GitHub account.
+2.  Select the [Touch-AI](https://github.com/Mr-Smyth/Touch-AI) Repository.
+3.  Select settings from the menu at the top of the page.
+4.  Scroll down to the section titled **GitHub Pages.**
+5.  Under the source sub heading, click the drop-down menu labelled **None** and select **Master Branch.**
+6.  The page will re-load.
+7.  Scroll back down the the GitHub Pages section and the deployed website link will be displayed.
+8.  The website may take some time to become active, as github does not update changes immediatly.
+
+<br>
+
+## Local Branch:
+
+It is possible to run a clone of this website on your own local machine:
+
+1.  Go to the repository page for Touch-AI. ([Click Here](https://github.com/Mr-Smyth/Touch-AI))
+2.  Above the file area, click on the green **Clone or Download** link.
+3.  Click on the copy symbol to the right of the [URL](https://github.com/Mr-Smyth/Touch-AI.git).
+4.  On your local computer, navigate to the desired containing folder, you want to clone the project to, and right click and open [Git Bash](https://git-scm.com/downloads) (or similar command prompt).
+5.  Type  `git clone` then right click and paste the URL.
+6.  The line should look something like this: `$ git clone https://github.com/Mr-Smyth/Touch-AI.git.
+7.  Press Return or Enter and your clone will be created.
+
+<br>
+
+
+
+****
+
+
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
