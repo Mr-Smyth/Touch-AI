@@ -31,7 +31,7 @@ This project will be submitted for my User Centric Front End Development and fir
 
 <br>
 
-### The Company Story:
+## The Company Story:
 
 Touch AI need a B2B website that will reflect their professional standards and the respectable image they have achieved.
 
@@ -127,7 +127,7 @@ I made these of a medium fidelity, deliberately leaving out promo images as they
 ---
 <br>
 
-# Considered execution and styling
+## Considered execution and styling
 <br>
 
 ### DESIGN:
@@ -215,6 +215,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 * Each section has a call to action button inviting them to make contact.
 
+<br>
 
 #### Retail:
 * Familiar styling.
@@ -223,6 +224,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 * Each section has a call to action button inviting them to make contact.
 
+<br>
 
 #### Features:
 * Familiar styling.
@@ -231,6 +233,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 * Each section has a call to action button inviting them to make contact.
 
+<br>
 
 #### About:
 * Familiar styling.
@@ -239,6 +242,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
   
 * Some information on the Partner system.
 
+<br>
 
 #### Contact us:
 * Familiar styling.
@@ -499,7 +503,7 @@ All devices tested worked as expected.
 ## Media
 <br>
 
-* The photos used in this site were obtained from Unsplash and privately owned by me.
+* The photos used in this site were royalty free and obtained from Unsplash and/or, privately owned by me.
 * Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/)
 
 <br>
@@ -508,3 +512,10 @@ All devices tested worked as expected.
 <br>
 
 * I received inspiration for this project from the eventual realization of what was said in the instructions. As advised, if in doubt stick to something you know. I have always searched for websites that give a clear uncluttered view when dealing with this exact subject in the past, and all too often these types of websites, just feel like the owners have decided to just cram everything in. Often in life — Less is More..
+
+<br>
+
+## Disclaimer
+<br>
+
+The content of this Website is for educational purposes only.
