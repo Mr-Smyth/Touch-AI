@@ -151,7 +151,6 @@ Sub pages will adopt the same styling as the Benefits section, with the contact 
 
 Intention to use [Bootstrap](https://getbootstrap.com) extensively throughout the HTML, with some [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) as well. This is due to the ease and speed at which you can layout and space objects with bootstrap.
 
-<br>
 
 ### CSS:
 
@@ -167,7 +166,6 @@ The aim was to make the CSS as lightweight as possible, using more left to right
 * **Colors:** Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colors of the site, matching with the own-styled logo. Purple is the color of royalty, luxury, power, wisdom, and creativity, whereas pink is a confident color.
 A white center trunk when the screen is expanded to desktop type sizes, will then contrast nicely with the [#424242](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23424242&oq=%23424242&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text.
 
-<br>
 
 ### Images:
 
@@ -175,7 +173,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 
 * **Hero image:** Layered 2 images together using [Gimp](https://www.gimp.org/) to include the subtle eye, to achieve a more catching hero image. Added a light pink opaque overlay to provide better contrast with hero text. 
 
-<br>
+
 
 ---
 <br>
@@ -186,83 +184,57 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 #### Common features across the site:
 
 * This website was designed from the mobile screen size first, as a result of some chosen media queries for @992px and @1200px, each web page responds neatly to all screen sizes. 
- 
 * They each contain a common navigation bar with the convention of a left-hand logo with the site navigation links on the right and a call-to-action button that links to the contact page.
-  
 * Each page also contains a common footer, with site navigation, contact details and social media links, and another call-to-action button for making contact.
-
-<br>
 
 #### Home — Landing page
 
 * Hero image with promotional text and a call to action to "Take a Look" which leads to more information.
-  
-* Contains a brief introduction to Touch AI
- 
+* Contains a brief introduction to Touch AI.
 * Contains a carousel of reputable existing partners.
-  
 * A Benefits' information section, where the user can click to find out more.
-
 * A Partner sign up Banner CTA.
-
 * A Further reading news section, to promote the pedigree and level of support of the company.
 
-<br>
+
   
 #### Hospitality:
 * Familiar styling.
-  
 * Contains more in-depth information regarding the Hospitality applications of Touch AI.
-
 * Each section has a call to action button inviting them to make contact.
 
-<br>
 
 #### Retail:
 * Familiar styling.
-
 * Contains more in-depth information regarding the Retail applications of Touch AI.
-
 * Each section has a call to action button inviting them to make contact.
 
-<br>
 
 #### Features:
 * Familiar styling.
-  
 * Explains some core features of the system. This is again spit between the two main sectors of Retail and Hospitality.
-
 * Each section has a call to action button inviting them to make contact.
 
-<br>
 
 #### About:
 * Familiar styling.
-  
 * A brief history of AI Pos.
-  
 * Some information on the Partner system.
 
-<br>
 
 #### Contact us:
 * Familiar styling.
-  
 * Some information about contacting Touch AI.
-  
 * A responsive contact form, which contains:
- * Name
- * Business Name
- * Postcode
- * Telephone Number
- * email
- * Contact number
- * How did you find out about us message box
- * How would you like to be contacted Radio buttons
- * Message box 
-
-<br>
-
+  * Name.
+  * Business Name.
+  * Postcode.
+  * Telephone Number.
+  * email.
+  * Contact number.
+  * How did you find out about us message box.
+  * How would you like to be contacted Radio buttons.
+  * Message box.
 
 <br>
 
@@ -270,14 +242,10 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 * A further set of pages relating to the individual products in more specific detail. This would branch off from the current Hospitality and Retail sections, into more specific areas such as Handheld ordering, Online sales, Kitchen Printing/Video ordering etc. With links back to case studies where Touch AI, helped to solve a problem with its software.
-
 * To be more useful as a point of information, a more specific downloads section or FAQ site would be useful for downloading brochures, spec sheets etc.
- 
 * A Blog page, i feel that news stories and case studies of partner installations and similar news stories does create a more solid online image, and creates confidence.
-
 * A video demonstration page.
 
-<br>
 
 ---
 <br>
@@ -287,20 +255,13 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 * **HTML and CSS** programming languages were used as the core building language of this website.
-  
 * [VS Studio code](https://code.visualstudio.com/) was used alongside [Gitpod](https://www.gitpod.io/) to develop this website.
-  
 * [Bootstrap 4.4 CDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) was used extensively on this website build, which greatly simplified the responsive element of the building process.
-  
 * [Font Awesome](https://fontawesome.com/) was used to provide icons for the website.
-  
 * [Google Fonts](https://fonts.google.com/) was the used as the source of fonts for this website.
-
-* [jQuery](https://code.jquery.com/) Toot the latest slim CDN of JQuery core 3.5.0
-
+* [jQuery](https://code.jquery.com/) Toot the latest slim CDN of JQuery core 3.5.0.
 * [Favicon](https://favicon.io/) Was used to create the tab page icon for each web page.
   
-<br>
 
 ---
 <br>
@@ -319,7 +280,6 @@ Had some trouble making the expanding offset images responsive on the way down s
 
 Therefore there is a tiny window between 1260px and 1200px where my images would not collapse properly.  
 
-<br>
 
 ---
 <br>
@@ -338,47 +298,37 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
 <br>
 
 * **_As a user I want to easily find the information I want:_**
- 
    * The Touch AI Website achieves this by having a clear easy to navigate layout, in simple clear sections.
 
 * **_As a user I want to gain in-depth information about the products benefits from the website._**
-
      * The Touch AI Website achieves this by providing very clear, detailed information about the systems capabilities and benefits.
 
 * **_As a user I want to feel that the company is reputable._**
-
      * The Touch AI Website achieves this by Providing a reputable partner carousel to showcase the reputable companies they are associated with. The website also provides some news stories that are good news/confidence building stories. Also the look and feel of the website is sophisticated and informative.
 
 
 * **_As a user I want to know that I can easily and reliably contact someone._**
-
      * The Touch AI Website achieves this by Creating several call to action buttons. By adding the company contact details and telephone number on each page footer. Above all by making it very easy to reach a very clear and very functional contact form.
 
 * **_As management I want a professional responsive online presence._**
-
      * The Touch AI Website achieves this by looking professional and being fully responsive.
 
 
 * __*As management i want existing partners to be promoted.*__
-
      * The Touch AI Website achieves this by a partner promotional carousel, just beneath the company introduction
 
 
 * **_As management i want the versatility of our software to be promoted._**
-
      * The Touch AI Website achieves this by using the benefits section and the Type of Business drop down to provide information and links to how Touch AI can work right across the retail spectrum.
 
 
 * **_As management I want an accurate point of information quickly and easily accessible for potential partners._**
- 
   * The Touch AI Website achieves this by being informative about the capabilities and benefits of the system.
 
 * **_As management I want to showcase our philosophy of support first._**
-
    *  The Touch AI Website achieves this by providing news stories on winning the Golden meter award, which explains that Touch AI are very much a service first company.
 
 * **_As tech support I want to see how are services and efforts can be showcased to the clients._**
-
     * The Touch AI Website achieves this by providing details of the relaunch of the partner support forum.
 
 <br>
@@ -495,16 +445,10 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 * The content of the pages is primarily my own personal knowledge of the EPOS Trade from over 20 years of experience in the industry. However on AI possibilities i read a [Medium](https://medium.com/@ccspos/ai-integration-in-pos-system-enhances-the-software-and-restaurant-business-bc4de5eac090) and a [Retail CIO](https://artificial-intelligence-apac.retailciooutlook.com/cxoinsights/pos-systems-can-now-become-artificial-intelligence-weapons--nid-145.html) article specifically on the possibilities of AI in Retail to sharpen my knowledge and i took some influence from there on specific AI related topics.
-
 * I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
-
-
 * Shadows — Read articles on Box shadows in CSS tricks, but implemented the ideas in my own way.
-  
 * H₁ text internal shadow, credit to [Designshack](https://designshack.net/articles/css/inner-shadows-in-css-images-text-and-beyond/)
- 
 * Used [CSS Gradient](https://cssgradient.io/) to achieve a few subtle background colors, most noticeably on the navigation hover effect.
-
 * Took a great deal of help, from [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) in understanding certain behaviors relating to negative margins and Absolute and Relative relationships.
 
 <br>
