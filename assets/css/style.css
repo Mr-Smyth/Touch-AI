@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* ###################################################################      COMMON STYLING */
+/* ##############################################################################################      COMMON STYLING */
+
 /* RESET ALL MARGINS AND PADDING AND SET DEFAULT BOX SIZING TO BE BORDER BOX  */
 * {
     padding: 0;
@@ -20,10 +21,12 @@ body {
     color: #424242;
 }
 
+/* ################################################################################################################################# */
 
 /* ################################         COMMON - CONTAINERS*/
+
 /* STYLING FOR - THE MAIN ELEMENT */
-/*  .HOME-MAIN CLASS IS SPECIFICALLY STYLING FOR HOME PAGE - ALSO SEE 1200PX MEDIA QUERY */
+/*  .HOME-MAIN CLASS IS SPECIFICALLY STYLING FOR HOME PAGE - MAIN ELEMENT APPLIES TO ALL OTHER PAGES - ALSO SEE 1200PX MEDIA QUERY */
 main,
 .home-main{
     position: relative;
@@ -32,6 +35,7 @@ main,
     text-align: center;
     padding-bottom: 1px;
 }
+
 
 .intro-container,
 .partner-container {
@@ -56,6 +60,7 @@ main,
 
 
 /* ################################################################################################################################# */
+
 /* ################################             COMMON - BUTTONS */
 
 /* STYLING FOR - CORE BUTTON STYLING */
@@ -98,7 +103,11 @@ main,
 }
 
 /* ################################################################################################################################# */
+
 /* ################################              COMMON - HEADINGS & PARAGRAPHS */
+
+
+/* STYLING FOR - FONTS */
 
 h1 {
     font-family: "Roboto" ,sans-serif;
@@ -153,20 +162,24 @@ p {
 }
 
 /* ################################################################################################################################# */
+
 /* ################################         COMMON - GENERAL STYLING */
 
+/* STYLING FOR - GENERAL BOX SHADOW USED ALL OVER THE SITE */
 .box-shadow {
     -webkit-box-shadow: 0 1px 6px 0 rgb(46,21,27);
     box-shadow: 0 1px 6px 0 rgb(46,21,27);
 }
 
+/* CREATED THIS TO USE ON PAGES WHERE I NEEDED A SET SPACING IN SECTIONS, EXAMPLE BETWEEN SECTIONS IN FEATURES */
 .page-section-spacer {
     margin-bottom: 100px;
 }
 
 
 /* ################################################################################################################################# */
-/* ###################################################################         NAVBAR STYLING */
+
+/* ################################################################################################         NAVBAR STYLING - ALL PAGES */
 
 /* STYLING FOR - STYLE THE NAV LINKS */
 .navbar-dark .navbar-nav .nav-link {
@@ -194,7 +207,7 @@ p {
 }
 
 
-/* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU - CSSGRADIENT.IO USED HERE */
+/* STYLING FOR - HOVER STYLING FOR DROPDOWN MENU */
 .dropdown-item:hover {
     color:  #ddd;
     transition: all 0.55s ease-in-out;
@@ -206,13 +219,13 @@ p {
 }
 
 
-/* STYLING FOR - REMOVE TOGGLER ICON BORDER */
+/* STYLING FOR - REMOVE TOGGLER ICON BORDER ON COLLAPSED NAV BAR */
 .navbar-dark .navbar-toggler {
     border: none;
 }
 
 
-/* STYLING FOR - ACTIVE NAVBAR LINK */
+/* STYLING FOR - ANY ACTIVE NAVBAR LINK */
 
 .navbar-dark .navbar-nav .active,
 .dropdown-menu .dropdown-item.active,
@@ -251,8 +264,10 @@ p {
 
 
 /* ################################################################################################################################# */
-/* ###################################################################              HERO SECTION STYLING */
 
+/* ##########################################################################################              HERO SECTION STYLING - HOME PAGE */
+
+/* STYLING FOR - THE HERO IMAGE, SET IMAGE SOURCE AND POSITION */
 .hero-image {
     background-image:  url("../images/laptop-stats-eye.jpg");
     height: 90vh;
@@ -263,7 +278,7 @@ p {
 
 }
 
-/* STYLING FOR HERO OPACITY LAYER - USED FLEX TO ALLOW MARGIN: AUTO IN THE CHILD TO CENTER THE TEXT, CREDIT: CSS TRICKS */
+/* STYLING FOR HERO OPACITY LAYER - USED DISPLAY:FLEX TO ALLOW MARGIN: AUTO IN THE .HERO-TEXT ELEMENT,  TO EASILY CENTER THE TEXT, CREDIT: CSS TRICKS */
 .hero-overlay {
     height: 100%;
     width: 100%;  
@@ -294,12 +309,10 @@ p {
 
 
 /* ################################################################################################################################# */
-/* ###################################################################              BENEFITS SECTION STYLING */
 
+/* #######################################################################################          BENEFITS SECTION IMG STYLING - HOME PAGE
+##########################################################################################          ALSO ALL OTHER PAGES MAIN CONTENT AREAS IMG STYLING */
 
-.benefits-container {
-    margin-top: 100px;
-}
 
 .hospitality-benifit-img,
 .retail-benifit-img,
@@ -314,8 +327,10 @@ p {
 }
 
 /* ################################################################################################################################# */
-/* ###################################################################   PARTNER CALLOUT BANNER    */
 
+/* ###########################################################################################   PARTNER CALLOUT BANNER - HOME PAGE    */
+
+/* STYLING FOR - SOME GENERAL STYLING FOR THE PARTNER BANNER ON HOME PAGE */
 .partner-callout-container {
     width: 100%;
     margin-top: 100px;
@@ -335,13 +350,17 @@ p {
 }
 
 /* ################################################################################################################################# */
-/* ###################################################################         FURTHER READING - NEWS SECTION */
+
+/* ####################################################################################         FURTHER READING - NEWS SECTION - HOME PAGE */
+
 
 .further-reading-container h2 {
     margin-bottom: 30px;
     text-align: left;
 }
 
+/* STYLING FOR - THE SLIGHT FADED LINE THAT PRECEEDS SOME OF THE SECTION HEADERS, 
+USED IT TO GIVE A BIT MORE CLARITY BETWEEN SECTIONS THAT MAY BE LOST IN ALL THE WHITESPACE */
 .further-reading-container h2::before,
 .benefits-container h3::before,
 .page-container h3::before {
@@ -361,6 +380,7 @@ p {
     border-style: none;
 }
 
+/* STYLING FOR - SOME GENERAL STYLING FOR THE FURTHER READING DROPDOWNS ON HOME PAGE */
 .gold-meter-award,
 .licence-announcement,
 .forum-post {
@@ -370,8 +390,10 @@ p {
 }
 
 /* ################################################################################################################################# */
-/* ###################################################################         PAGE FOOTER */
 
+/* ##################################################################################################         PAGE FOOTER - EVERY PAGE */
+
+/* STYLING FOR - SOME GENERAL STYLING FOR THE FOOTER AREA */
 .page-footer {
     width: 100%;
     background-color: #2e151b;
@@ -390,6 +412,7 @@ p {
     -o-transition: all 0.55s ease-in-out;
 }
 
+/* STYLING FOR - THIS IS TO REMOVE DEFAULT STYLING FROM FOOTER LINKS AND SET SITE COLOUR */
 .page-footer a,
 .page-footer h6 {
     padding-bottom: 5px;
@@ -402,7 +425,7 @@ p {
     padding-bottom: 5px;
 }
 
-
+/* STYLING FOR - TO SPECIFICALLY ADD FONT COLOR TO CTA BUTTON */
 .page-footer .btn-cta {
     color: #ddd;
 }
@@ -422,23 +445,28 @@ a.social-links .fab {
 .social-links .fab:hover {
     text-shadow: 0px 0px 10px rgb(240, 239, 175);
 }
-  
+
+/* TWITTER */
 .social-links .fa-twitter:hover {
     color: #38A1F3;
 }
-  
+
+  /* FACEBOOK */
 .social-links .fa-facebook:hover {
     color: #3b5998;
 }
-  
+
+/* LINKED IN */  
 .social-links .fa-linkedin:hover {
     color: #0e76a8;
 }
-  
+
+/* YOU TUBE */ 
 .social-links .fa-youtube:hover {
     color: #ff0000;
 }
-  
+
+/* STYLING FOR - TCOPYRIGHT TEXT AT FOOT OF PAGE */ 
 .Copyright {
     font-size: 1rem;
     margin: 30px 0 10px;
@@ -447,8 +475,10 @@ a.social-links .fab {
 }
 
 /* ################################################################################################################################# */
-/* ###################################################################   CONTACT FORM   */
 
+/* #####################################################################################################   CONTACT FORM PAGE   */
+
+/* STYLING FOR - GENERAL STYLING FOR THE FORM, PULL TO START TO ALIGN ON LEFT */
 .contact-form {
     width: 90%;
     padding: 20px;
@@ -456,15 +486,13 @@ a.social-links .fab {
     margin-bottom: 100px;
 }
 
+/* STYLING FOR - TO SET FONT STYLE FOR THE FORM LABELS */
 .input-label {
     font-size: 1.1rem;
     font-weight: 700;
 }
 
-.half-row {
-    width: 40%;
-}
-
+/* STYLING FOR - COMBINED THESE CLASSES, THEY ALL APPLY COMMON STYLE FOR THE INPUT WINDOWS */
 .full-width-input,
 .med-height-input,
 .full-height-input{
@@ -481,12 +509,14 @@ a.social-links .fab {
     padding-left: 10px;
 }
 
+/* STYLING FOR - ON HOVER OVER ANY INPUT WINDOW, THE INTERNAL SHADOW EFFECT IS REMOVED AND REPLACED BY A SINGLE BLACK BORDER. */
 .full-width-input:hover {
     border-color: #000;  
     -webkit-box-shadow: none;  
             box-shadow: none;  
 }
 
+/* STYLING FOR - uSED THIS STYLING TO KEEP THE INPUT WINDOWS AT A LIGHTER COLOR WHILE SELECTED, TO MAKE IT CLEAR WHICH WINDOW IS ACTIVE */
 .full-width-input:focus,
 .med-height-input:focus,
 .full-height-input:focus {
@@ -495,15 +525,18 @@ a.social-links .fab {
             box-shadow: none;  
 }
 
+/* STYLING FOR - THE WHERE DID YOU HEAR ABOUT US WINDOW, TO LIMIT ITS GROWTH */
 .med-height-input {
     height: auto;
     max-height: 130px;
 }
 
+/* STYLING FOR - THE MESSAGE WINDOW, NO HEIGHT RESTRICTION AS IT IS A BOTTOM WINDOW AND WILL NOT AFFECT THE REST OF THE FORM LAYOUT */
 .full-height-input {
     height: auto;
 }
 
+/* STYLING FOR - USED THIS PSEUDO CLASS TO PLACE AN ASTERIX AFTER ANY REQUIRED FIELD */
 .input-required::after {
     content: "*";
     margin-left: 5px;
@@ -512,11 +545,12 @@ a.social-links .fab {
 
 
 /* ################################################################################################################################# */
-/* ###################################################################   MEDIA QUERYS    */
+
+/* #####################################################################################################   MEDIA QUERYS     */
   
 @media (min-width: 992px){
 
-    /* FONT ADJUSTMENTS FOR LARGER SCREENS */
+    /* SOME SLIGHT FONT ADJUSTMENTS WHEN SCREENS GET LARGER */
     .hero-text {
         text-align: left;
     }
@@ -567,7 +601,8 @@ a.social-links .fab {
 }
 
 @media (min-width: 1200px){
-    /* QUERY TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED - FOR BOTH MAIN(SITE) AND .HOME-MAIN(STYLE SPECIFICALLY FOR HOME PAGE) / LG-BREAKPOINT */
+    /* QUERY FOR - TO FIX THE WHITE BACKGROUND IN PLACE WHEN 1200PX IS REACHED - FOR BOTH MAIN(SITE) AND .HOME-MAIN
+    (THIS STYLE SPECIFICALLY FOR HOME PAGE AS THIS INCLUDES THE OFFSET TOP MARGIN) / LG-BREAKPOINT */
     main,
     .home-main {
         max-width: 1200px;
@@ -577,43 +612,49 @@ a.social-links .fab {
         margin-bottom: 100px;
     }
 
+    /* QUERY FOR - THIS IS FOR ALL PAGES EXCEPT HOME PAGE WHICH USES THE .HOME-MAIN CLASS. */
     main {
         margin-top: 100px;
     }
 
-    /* QUERYS TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
+    /* QUERYS FOR - TO ALLOW OFFSET ITEMS TO MOVE ON LARGER SCREENS */
     .expand-left {
         position: relative;
         margin-left: -40px;     
     }
 
+    /* QUERY FOR - TO ALLOW OFFSET ITEMS TO EXPAND RIGHT */
     .expand-right {
         position: relative;
         margin-right: -40px;      
     }
 
+    /* QUERY FOR - TO ALLOW OFFSET ITEMS TO EXPAND UP AND RIGHT */
     .expand-up-right {
         position: relative;
         margin-top: -60px;
         margin-right: -80px;
     }
 
+    /* QUERY FOR - TO ALLOW OFFSET ITEMS TO EXPAND DOWN AND RIGHT */
     .expand-down-right {
         position: relative;
         margin-bottom: -60px;
         margin-right: -80px;
     }
 
+    /* QUERY FOR - TO ALLOW THE PARTNER CALLOUT BANNER ON HOME PAGE TO EXPAND */
     .partner-callout-container {
         position: relative;
         margin-left: -28px;
         width: 1250px;
     }
 
+    /* QUERY FOR - TO SLIGHTLY INCREASE SIZE OF CALLOUT TEXT ON PARTNER CALLOUT BANNER ON HOME PAGE  */
     .partner-callout-container h2 {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #da7b93;
+    
     }
 }
   
