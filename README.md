@@ -273,7 +273,6 @@ I therefore decided to use the main section and style it white, and set the offs
 **Getting Offset images to collapse at correct size:**
 
 Had some trouble making the expanding offset images responsive on the way down screen sizes. As i have set my white center div to be 1200px wide, that corresponds to the bootstrap 1200px break point.
-
 Therefore there is a tiny window between 1260px and 1200px where my images would not collapse properly.  
 
 
@@ -453,7 +452,7 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 * The photos used in this site were royalty free and obtained from Unsplash and/or, privately owned by me.
-* Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/)
+* Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/). Later added a light outline to the text in the logo as it had been mentioned to me that the slogan text was getting lost in the dark purple background.
 
 <br>
 
