@@ -156,13 +156,9 @@ Intention to use [Bootstrap](https://getbootstrap.com) extensively throughout th
 
 * **Style sheet:** A single style sheet will provide style for all pages.
 The aim was to make the CSS as lightweight as possible, using more left to right HTML built in bootstrap classes and re-using own style classes, to position and style items. 
-
 * Studied new **naming methods** like BEM, but decided not to use it for this project, instead I will stick with solid simple but descriptive class names.
-  
 * **Fonts** The site has to be clear and simple, There must be nothing confusing, and so i chose simple clear fonts : **Poppins and Roboto**.
-
 * **Sizing:** Decided to use REM sizing for fonts, as i personally find it easier to keep the sizes uniform across the site.
-
 * **Colors:** Strong purple [#2e151b](https://www.google.com/search?q=%232e151b&oq=%232e151b&aqs=chrome..69i57.849j0j7&sourceid=chrome&ie=UTF-8) with a light contrasting pink [#da7b93](https://www.google.com/search?q=%23da7b93&oq=%23da7b93&aqs=chrome..69i57.415j0j7&sourceid=chrome&ie=UTF-8), will be the main themed colors of the site, matching with the own-styled logo. Purple is the color of royalty, luxury, power, wisdom, and creativity, whereas pink is a confident color.
 A white center trunk when the screen is expanded to desktop type sizes, will then contrast nicely with the [#424242](https://www.google.com/search?sxsrf=ALeKk02sJ9VZ3SKReOpg0FJiev_ZayEg2A%3A1588278616107&ei=WDWrXqGdBpup1fAP-ZqXiA8&q=%23424242&oq=%23424242&gs_lcp=CgZwc3ktYWIQAzoECCMQJzoICAAQBRAKEB46BAgAEB46BggAEAUQHjoHCAAQFBCHAjoCCAA6BQgAEIMBOgQIABADUJiaCVjVtAlgprkJaABwAHgAgAFziAHoB5IBBDEyLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwihqd71_pDpAhWbVBUIHXnNBfEQ4dUDCAw&uact=5) text.
 
