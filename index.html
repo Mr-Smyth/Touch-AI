@@ -1,480 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AI Touch are the leading AI EPoS Developers">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            type="text/css">
+        <script src="https://kit.fontawesome.com/574ac543a9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <title>Home - Touch AI</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AI Touch are the leading AI EPoS Developers">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        type="text/css">
-    <script src="https://kit.fontawesome.com/574ac543a9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Home - Touch AI</title>
-</head>
+    <body>
 
-<body>
+        <!-- HEADER SECTION -->
+        <header>
 
-    <!-- HEADER SECTION -->
+            <!-- LOGO AND NAVBAR SECTION -->
+            <!--    USING BOOTSTRAP 4 NAVBAR AS TEMPLATE -->
+            <!--        SETTING NAVBAR COLOR INLINE HERE, TO OVERRIDE THE BOOTSTRAP STYLE -->
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2e151b;" aria-label="primary">
 
-    <header>
-        <!-- LOGO AND NAVBAR SECTION -->
-        <!--    USING BOOTSTRAP 4 NAVBAR AS TEMPLATE -->
-        <!--        SETTING NAVBAR COLOR INLINE HERE, TO OVERRIDE THE BOOTSTRAP STYLE -->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2e151b;" aria-label="primary">
-
-            <!-- NAVBAR LOGO -->
-            <a class="navbar-brand" href="index.html">
+                <!-- NAVBAR LOGO -->
+                <a class="navbar-brand" href="index.html">
                 <img src="assets/images/ai-logo-navbar-logo.png" height="50" alt="Touch AI logo">
-            </a>
+                </a>
 
-            <!-- TOGGLE BUTTON -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- TOGGLE BUTTON -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+                </button>
 
-            <!-- NAVBAR LINKS -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <!-- NAVBAR LINKS -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle hvr-underline-from-center" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Business Type</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="hospitality.html">Hospitality</a>
-                            <a class="dropdown-item" href="retail.html">Retail</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center" href="features.html">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hvr-underline-from-center" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mb-5 mb-lg-0 mr-lg-5 hvr-underline-from-center" href="about.html">About</a>
-                    </li>
-                </ul>
-                <!-- ADD THE CTA BUTTON TO THE NAVBAR -->
-                <a href="contact.html" class="btn btn-cta">Talk to us</a>
-            </div>
-        </nav>
-        <!-- END OF NAVBAR -->
-    </header>
-
-    <!-- HERO SECTION -->
-
-    <section class="hero-image">
-        <div class="hero-overlay">
-            <div class="hero-text">
-                <h1>Touching the future of EPos</h1>
-                <h2>With the power of Touch AI</h2>
-                <a href="features.html" class="btn btn-info mt-5">Take a look</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- MAIN SECTION -->
-
-    <main class="home-main box-shadow">
-
-        <!-- INTRODUCTION - USING BOOTSTRAP GRID -->
-        <article class="container-fluid intro-container pt-5">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h1 class="pb-1">The Total EPos Solution</h1>
-                    <h2 class="pb-4">Touch AI offers more than just Epos systems.</h2>
-                    <p> With Touch AI you can manage all areas
-                        of your business with versatility and reliability.
-                        Today, a technology, which is constantly evolving with huge benefits is Artificial Information
-                        Technology. With AI’s inherent capability partnered with predictive analysis and natural
-                        language processing, the information management system is getting synchronized and highly
-                        optimized to deliver what we don't even know we need. Therefore, Touch AI is always tailored for
-                        how your business works!
-                    </p>
-                </div>
-            </div>
-        </article>
-
-        <!-- PARTNERS SECTION - USING BOOTSTRAP GRID/CARDS -->
-        <!--    IMAGE CAROUSEL TO EXHIBIT CURRENT PARTNERS -->
-        <section class="container-fluid partner-container">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h2 class="pb-5">Companies who currently Benefit from our systems</h2>
-
-                    <div class="carousel-container mb-4">
-                        <div class="carousel slide carousel-slide" data-ride="carousel">
-
-                            <!--  SLIDES  -->
-                            <div class="carousel-inner">
-
-                                <!-- USING THE BOOTSTRAP GRID SYSTEM TO HAVE A 2 PER PAGE CAROUSEL -->
-                                <!--    SLIDE ONE  -->
-                                <div class="carousel-item active">
-                                    <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-5.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-1.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- SLIDE 2-->
-                                <div class="carousel-item">
-                                    <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-2.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-6.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--  SLIDE THREE  -->
-                                <div class="carousel-item">
-                                    <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-7.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-4.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--  SLIDE FOUR -->
-                                <div class="carousel-item">
-                                    <div class="row justify-content-around pt-2 pb-5">
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-8.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                        <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
-                                        <div class="col-5 col-md-4">
-                                            <div class="card box-shadow">
-                                                <img class="card-img" src="assets/partners/partner-3.jpg"
-                                                    alt="Partner image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="hospitality.html">Hospitality</a>
+                                <a class="dropdown-item" href="retail.html">Retail</a>
                             </div>
-                            <!-- END OF SLIDES -->
-
-                        </div>
-                        <!-- END OF PARTNER CAROUSEL-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- TOUCH AI BENEFITS - USING BOOTSTRAP GRID -->
-        <!--    A 3 PART - IMAGE AND BRIEF DESCRIPTION SECTION - WITH LINKS TO MORE INFORMATION -->
-        <article class="container-fluid benefits-container">
-
-            <!-- BENEFITS SECTION - HOSPITALITY BENEFITS -->
-            <div class="row no-gutters justify-content-lg-between align-items-center expand-right">
-                <div class="col-12 col-lg-6 text-center text-lg-left order-2 order-lg-1 mx-auto mt-4 mt-lg-0">
-                    <h3 class="">Touch AI for Hospitality</h3>
-                    <p>Our user-friendly intuitive interface is designed for fast, easy and reliable use, which is
-                        essential in the Hospitality industry. Likewise with reliability, Touch AI Works
-                        seamlessly with ready-made hardware and tablets. Our cloud based data structure with full
-                        network and standalone redundancy features, meaning it is virtually bullet proof and can be
-                        accessed
-                        anywhere.
-                    </p>
-                    <a href="hospitality.html" class="btn btn-learn-more">Learn more</a>
-                </div>
-                <div class="col-12 col-lg-5 order-1 order-lg-2">
-                    <img class="hospitality-benifit-img box-shadow" src="assets/images/hosp1.jpg"
-                        alt="Hospitality Image">
-                </div>
-            </div>
-
-            <!-- BENEFITS SECTION - RETAIL BENEFITS -->
-            <div class="row no-gutters justify-content-lg-between align-items-center expand-left mt-5 mb-5">
-                <div class="col-12 col-lg-6 text-center text-lg-left order-2 mt-4 mt-lg-0">
-                    <h3>Touch AI for Retail</h3>
-                    <p>A successful retail business start with great EPoS software. Having a good inventory management
-                        system makes things even better. Touch AI software for retail provides a fully intelligent
-                        quantitative analysis of your business, allowing you to make fully informed decisions to
-                        optimize efficiency and growth.
-                    </p>
-                    <a href="retail.html" class="btn btn-learn-more">Learn more</a>
-                </div>
-                <div class="col-12 col-lg-5 order-1">
-                    <img class="retail-benifit-img box-shadow" src="assets/images/retail1.jpg" alt="Retail Image">
-                </div>
-            </div>
-
-            <!-- BENEFITS SECTION - FEATURES -->
-            <div class="row no-gutters justify-content-lg-between align-items-center expand-right">
-                <div class="col-12 col-lg-6 text-center text-lg-left order-2 order-lg-1 mx-auto mt-4 mt-lg-0">
-                    <h3>Touch AI Features</h3>
-                    <p>Touch AI Boasts an incredible class leading feature set. It is completely cross platform,
-                        and requires no specific hardware requirements. Effectively you can load Touch AI
-                        onto any phone, Tablet or any pc platform you like and it works! The software contains a full
-                        feature list for retail and Hospitality, including specific modules for many sectors with very
-                        specific needs, for example Drapery and Pharmaceutical industries.
-                        The AI engine, uses advanced predictive and data analytics systems that are assisting owners in making
-                        data-driven business decisions that work.
-                    </p>
-                    <a href="features.html" class="btn btn-learn-more">Learn more</a>
-                </div>
-                <div class="col-12 col-lg-5 order-1 order-lg-2">
-                    <img class="features-benifit-img box-shadow" src="assets/images/feat1.jpg" alt="Features Image">
-                </div>
-            </div>
-
-        </article>
-
-        <!-- BECOME A PARTNER TODAY BANNER - USING BOOTSTRAP GRID -->
-        <section class="container-fluid partner-callout-container box-shadow">
-            <div class="row align-items-center">
-                <div class="col-12 col-xl-8 text-center">
-                    <h2>Time to get started?</h2>
-                    <h3>Become an Authorised partner today!</h3>
-                </div>
-                <div class="col-12 col-xl-4 text-center">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-5 mb-lg-0 mr-lg-5 hvr-underline-from-center" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- ADD THE CTA BUTTON TO THE NAVBAR -->
                     <a href="contact.html" class="btn btn-cta">Talk to us</a>
                 </div>
+            </nav>
+            <!-- END OF NAVBAR -->
+
+        </header>
+
+        <!-- HERO SECTION -->
+        <section class="hero-image">
+            <div class="hero-overlay">
+                <div class="hero-text">
+                    <h1>Touching the future of EPos</h1>
+                    <h2>With the power of Touch AI</h2>
+                    <a href="features.html" class="btn btn-info mt-5">Take a look</a>
+                </div>
             </div>
         </section>
 
+        <!-- MAIN SECTION -->
+        <main class="home-main box-shadow">
 
-        <!-- FURTHER READING -->
-        <!--    USING THE BOOTSTRAP COLLAPSIBLE STRUCTURE WITH GRID TO CREATE A NEWS OR FURTHER READING SECTION -->
-        <!--        FIRST NEWS STORY -->
-        <article class="container-fluid further-reading-container" id="further-reading">
-            <h2>Further Reading</h2>
-            <div class="card mb-4">
-                <div class="row no-gutters justify-content-center align-items-center">
-                    <div class="d-none d-md-block col-md-2">
-                        <img class="gold-meter-award box-shadow" src="assets/images/celebrate.jpg"
-                            alt="Touch AI celebration pic">
+            <!-- INTRODUCTION - USING BOOTSTRAP GRID -->
+            <article class="container-fluid intro-container pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1 class="pb-1">The Total EPos Solution</h1>
+                        <h2 class="pb-4">Touch AI offers more than just Epos systems.</h2>
+                        <p> With Touch AI you can manage all areas
+                            of your business with versatility and reliability.
+                            Today, a technology, which is constantly evolving with huge benefits is Artificial Information
+                            Technology. With AI’s inherent capability partnered with predictive analysis and natural
+                            language processing, the information management system is getting synchronized and highly
+                            optimized to deliver what we don't even know we need. Therefore, Touch AI is always tailored for
+                            how your business works!
+                        </p>
                     </div>
-                    <div class="col-12 col-md-8">
-                        <h4 class="mb-4"> Touch AI Awarded the Golden meter award for Support!</h4>
-                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
-                        <div class="row no-gutters justify-content-center">
-                            <div class="col-12 col-lg-8 mb-4">
-                                <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
-                                    data-target="#news-item-one" aria-expanded="true" aria-controls="news-item-one">
-                                    Read More
-                                </button>
+                </div>
+            </article>
+
+            <!-- PARTNERS SECTION - USING BOOTSTRAP GRID/CARDS -->
+            <!--    IMAGE CAROUSEL TO EXHIBIT CURRENT PARTNERS -->
+            <section class="container-fluid partner-container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="pb-5">Companies who currently Benefit from our systems</h2>
+                        <div class="carousel-container mb-4">
+                            <div class="carousel slide carousel-slide" data-ride="carousel">
+                                <!--  SLIDES  -->
+                                <div class="carousel-inner">
+                                    <!-- USING THE BOOTSTRAP GRID SYSTEM TO HAVE A 2 PER PAGE CAROUSEL -->
+
+                                    <!--    SLIDE ONE  -->
+                                    <div class="carousel-item active">
+                                        <div class="row justify-content-around pt-2 pb-5">
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-5.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                            <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-1.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SLIDE 2-->
+                                    <div class="carousel-item">
+                                        <div class="row justify-content-around pt-2 pb-5">
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-2.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                            <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-6.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--  SLIDE THREE  -->
+                                    <div class="carousel-item">
+                                        <div class="row justify-content-around pt-2 pb-5">
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-7.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                            <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-4.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--  SLIDE FOUR -->
+                                    <div class="carousel-item">
+                                        <div class="row justify-content-around pt-2 pb-5">
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-8.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                            <!-- USING A BARE BONES BOOTSTRAP CARD FOR MY PARTNER IMAGES -->
+                                            <div class="col-5 col-md-4">
+                                                <div class="card box-shadow">
+                                                    <img class="card-img" src="assets/partners/partner-3.jpg"
+                                                        alt="Partner image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END OF SLIDES -->
                             </div>
+                            <!-- END OF PARTNER CAROUSEL-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TOUCH AI BENEFITS - USING BOOTSTRAP GRID -->
+            <!--    A 3 PART - IMAGE AND BRIEF DESCRIPTION SECTION - WITH LINKS TO MORE INFORMATION -->
+            <article class="container-fluid benefits-container">
+
+                <!-- BENEFITS SECTION - HOSPITALITY BENEFITS -->
+                <div class="row no-gutters justify-content-lg-between align-items-center expand-right">
+                    <div class="col-12 col-lg-6 text-center text-lg-left order-2 order-lg-1 mx-auto mt-4 mt-lg-0">
+                        <h3 class="">Touch AI for Hospitality</h3>
+                        <p>Our user-friendly intuitive interface is designed for fast, easy and reliable use, which is
+                            essential in the Hospitality industry. Likewise with reliability, Touch AI Works
+                            seamlessly with ready-made hardware and tablets. Our cloud based data structure with full
+                            network and standalone redundancy features, meaning it is virtually bullet proof and can be
+                            accessed
+                            anywhere.
+                        </p>
+                        <a href="hospitality.html" class="btn btn-learn-more">Learn more</a>
+                    </div>
+                    <div class="col-12 col-lg-5 order-1 order-lg-2">
+                        <img class="hospitality-benifit-img box-shadow" src="assets/images/hosp1.jpg"
+                            alt="Hospitality Image">
+                    </div>
+                </div>
+
+                <!-- BENEFITS SECTION - RETAIL BENEFITS -->
+                <div class="row no-gutters justify-content-lg-between align-items-center expand-left mt-5 mb-5">
+                    <div class="col-12 col-lg-6 text-center text-lg-left order-2 mt-4 mt-lg-0">
+                        <h3>Touch AI for Retail</h3>
+                        <p>A successful retail business start with great EPoS software. Having a good inventory management
+                            system makes things even better. Touch AI software for retail provides a fully intelligent
+                            quantitative analysis of your business, allowing you to make fully informed decisions to
+                            optimize efficiency and growth.
+                        </p>
+                        <a href="retail.html" class="btn btn-learn-more">Learn more</a>
+                    </div>
+                    <div class="col-12 col-lg-5 order-1">
+                        <img class="retail-benifit-img box-shadow" src="assets/images/retail1.jpg" alt="Retail Image">
+                    </div>
+                </div>
+
+                <!-- BENEFITS SECTION - FEATURES -->
+                <div class="row no-gutters justify-content-lg-between align-items-center expand-right">
+                    <div class="col-12 col-lg-6 text-center text-lg-left order-2 order-lg-1 mx-auto mt-4 mt-lg-0">
+                        <h3>Touch AI Features</h3>
+                        <p>Touch AI Boasts an incredible class leading feature set. It is completely cross platform,
+                            and requires no specific hardware requirements. Effectively you can load Touch AI
+                            onto any phone, Tablet or any pc platform you like and it works! The software contains a full
+                            feature list for retail and Hospitality, including specific modules for many sectors with very
+                            specific needs, for example Drapery and Pharmaceutical industries.
+                            The AI engine, uses advanced predictive and data analytics systems that are assisting owners in making
+                            data-driven business decisions that work.
+                        </p>
+                        <a href="features.html" class="btn btn-learn-more">Learn more</a>
+                    </div>
+                    <div class="col-12 col-lg-5 order-1 order-lg-2">
+                        <img class="features-benifit-img box-shadow" src="assets/images/feat1.jpg" alt="Features Image">
+                    </div>
+                </div>
+            </article>
+
+            <!-- BECOME A PARTNER TODAY BANNER - USING BOOTSTRAP GRID -->
+            <section class="container-fluid partner-callout-container box-shadow">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-8 text-center">
+                        <h2>Time to get started?</h2>
+                        <h3>Become an Authorised partner today!</h3>
+                    </div>
+                    <div class="col-12 col-xl-4 text-center">
+                        <a href="contact.html" class="btn btn-cta">Talk to us</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FURTHER READING -->
+            <!--    USING THE BOOTSTRAP COLLAPSIBLE STRUCTURE WITH GRID TO CREATE A NEWS OR FURTHER READING SECTION -->
+
+            <!--        FIRST NEWS STORY -->
+            <article class="container-fluid further-reading-container" id="further-reading">
+                <h2>Further Reading</h2>
+                <div class="card mb-4">
+                    <div class="row no-gutters justify-content-center align-items-center">
+                        <div class="d-none d-md-block col-md-2">
+                            <img class="gold-meter-award box-shadow" src="assets/images/celebrate.jpg"
+                                alt="Touch AI celebration pic">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h4 class="mb-4"> Touch AI Awarded the Golden meter award for Support!</h4>
+                            <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                            <div class="row no-gutters justify-content-center">
+                                <div class="col-12 col-lg-8 mb-4">
+                                    <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
+                                        data-target="#news-item-one" aria-expanded="true" aria-controls="news-item-one">
+                                    Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="news-item-one" class="collapse" data-parent="#further-reading">
+                        <div class="card-body box-shadow">
+                            <h4>The Golden Meter is Awarded for 6th successive year!</h4>
+                            <p>
+                                Congratulations to our Tech support department on recently being awarded the Golden meter
+                                award
+                                for excellence in Technical support. This award is voted on by dealers worldwide, and so,
+                                the
+                                Tech
+                                support department rightly feel very proud of this achievement. <br>At Touch AI,
+                                we consider Backup support to be paramount, we <strong>do not</strong> believe in
+                                supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
+                                team,
+                                guys who go above and beyond to meet our partners requirements.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div id="news-item-one" class="collapse" data-parent="#further-reading">
-                    <div class="card-body box-shadow">
-                        <h4>The Golden Meter is Awarded for 6th successive year!</h4>
-                        <p>
-                            Congratulations to our Tech support department on recently being awarded the Golden meter
-                            award
-                            for excellence in Technical support. This award is voted on by dealers worldwide, and so,
-                            the
-                            Tech
-                            support department rightly feel very proud of this achievement. <br>At Touch AI,
-                            we consider Backup support to be paramount, we <strong>do not</strong> believe in
-                            supplying what we cannot provide 110% support for. Thankfully we have, in our Tech support
-                            team,
-                            guys who go above and beyond to meet our partners requirements.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- SECOND NEWS STORY -->
-            <div class="card mb-4">
-                <div class="row no-gutters justify-content-center">
-                    <div class="d-none d-md-block col-md-2">
-                        <img class="licence-announcement box-shadow" src="assets/images/licence-announcement.jpg"
-                            alt="Licence Announcement Picture">
-                    </div>
-                    <div class="col-12 col-md-8">
-                        <h4 class="mb-4"> Touch Ai surges past 200,000 licences Worldwide!</h4>
-                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
-                        <div class="row no-gutters justify-content-center">
-                            <div class="col-12 col-lg-8 mb-4">
-                                <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
-                                    data-target="#news-item-two" aria-expanded="true" aria-controls="news-item-two">
+                <!-- SECOND NEWS STORY -->
+                <div class="card mb-4">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="d-none d-md-block col-md-2">
+                            <img class="licence-announcement box-shadow" src="assets/images/licence-announcement.jpg"
+                                alt="Licence Announcement Picture">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h4 class="mb-4"> Touch Ai surges past 200,000 licences Worldwide!</h4>
+                            <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                            <div class="row no-gutters justify-content-center">
+                                <div class="col-12 col-lg-8 mb-4">
+                                    <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
+                                        data-target="#news-item-two" aria-expanded="true" aria-controls="news-item-two">
                                     Read More
-                                </button>
+                                    </button>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+                    <div id="news-item-two" class="collapse" data-parent="#further-reading">
+                        <div class="card-body box-shadow">
+                            <h4>Another record breaking year sees sales rocket</h4>
+                            <p>Touch AI continue to set the bar height when it comes to the EPoS industry. March of this
+                                year saw our Licence count hit 200,000! And it didn't wait around either, by the end of the
+                                month it had moved on by over 500.
+                            </p>
+                            <p>Live sites have seen an increase of 22% again in the first quarter, and again this must be
+                                attributed to the incredibly dedicated work of, not only our team here at
+                                Touch AI, but of our dynamic wider team of Touch AI partners worldwide.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div id="news-item-two" class="collapse" data-parent="#further-reading">
-                    <div class="card-body box-shadow">
-                        <h4>Another record breaking year sees sales rocket</h4>
-                        <p>Touch AI continue to set the bar height when it comes to the EPoS industry. March of this
-                            year saw our Licence count hit 200,000! And it didn't wait around either, by the end of the
-                            month it had moved on by over 500.
-                        </p>
-                        <p>Live sites have seen an increase of 22% again in the first quarter, and again this must be
-                            attributed to the incredibly dedicated work of, not only our team here at
-                            Touch AI, but of our dynamic wider team of Touch AI partners worldwide.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- THIRD NEWS STORY -->
-            <div class="card">
-                <div class="row no-gutters justify-content-center mb-5">
-                    <div class="d-none d-md-block col-md-2">
-                        <img class="forum-post box-shadow" src="assets/images/forum-post.jpg" alt="forum Post Picture">
-                    </div>
-                    <div class="col-12 col-md-8">
-                        <h4 class="mb-4"> New revamped and feature packed partner forum launched!</h4>
-                        <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
-                        <div class="row no-gutters justify-content-center">
-                            <div class="col-12 col-lg-8 mb-4">
-                                <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
-                                    data-target="#news-item-three" aria-expanded="true" aria-controls="news-item-three">
+                <!-- THIRD NEWS STORY -->
+                <div class="card">
+                    <div class="row no-gutters justify-content-center mb-5">
+                        <div class="d-none d-md-block col-md-2">
+                            <img class="forum-post box-shadow" src="assets/images/forum-post.jpg" alt="forum Post Picture">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h4 class="mb-4"> New revamped and feature packed partner forum launched!</h4>
+                            <!-- NESTED ROW FOR THE READ MORE BUTTON - TO KEEP IT CENTERED UNDERNEATH THE TITLE-->
+                            <div class="row no-gutters justify-content-center">
+                                <div class="col-12 col-lg-8 mb-4">
+                                    <button class="btn btn-read-more collapsed" type="button" data-toggle="collapse"
+                                        data-target="#news-item-three" aria-expanded="true" aria-controls="news-item-three">
                                     Read More
-                                </button>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div id="news-item-three" class="collapse" data-parent="#further-reading">
-                    <div class="card-body box-shadow mb-4">
-                        <h4>Its more than just a lick of paint!</h4>
-                        <p>The last few years has seen an intense increase in the user forums, linking developers with
-                            their trade partners and eventually the end users via the visitor section. It has amazed me
-                            how the spirit of the forum has also developed itself into more than just the support tool
-                            it had been designed for.
-                        </p>
-                        <p>With this in mind we undertook a massive overhaul, in fact a rewrite of the entire forum,
-                            with many hours and enhancements now invested, we are proud to announce the launching of our
-                            new forum as of Tuesday the 9th May at 6am GMT. We hope you enjoy the new features, and we
-                            feel it will definitely help us, help you, help them!
-
-                        </p>
+                    <div id="news-item-three" class="collapse" data-parent="#further-reading">
+                        <div class="card-body box-shadow mb-4">
+                            <h4>Its more than just a lick of paint!</h4>
+                            <p>The last few years has seen an intense increase in the user forums, linking developers with
+                                their trade partners and eventually the end users via the visitor section. It has amazed me
+                                how the spirit of the forum has also developed itself into more than just the support tool
+                                it had been designed for.
+                            </p>
+                            <p>With this in mind we undertook a massive overhaul, in fact a rewrite of the entire forum,
+                                with many hours and enhancements now invested, we are proud to announce the launching of our
+                                new forum as of Tuesday the 9th May at 6am GMT. We hope you enjoy the new features, and we
+                                feel it will definitely help us, help you, help them!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </article>
 
-        </article>
+        </main>
 
-    </main>
-
-    <!-- FOOTER SECTION -->
-    <!--    THIS IS A 3 PART BOOTSTRAP COLUMN INCLUDING NAVIGATION, LOGO AND TALK TO US BUTTON -->
-    <footer class="container-fluid page-footer">
-        <div class="row no-gutters justify-content-center">
-            <div class="col-12 col-lg-8 mb-4 order-lg-2 mt-lg-2 page-footer-links">
-                <a href="index.html" class="footer-nav-links active">Home</a><span class="ml-2 mr-2"> | </span>
-                <a href="hospitality.html" class="footer-nav-links hvr-underline-from-center">Hospitality</a><span
-                    class="ml-2 mr-2"> | </span>
-                <a href="retail.html" class="footer-nav-links hvr-underline-from-center">Retail</a><span
-                    class="ml-2 mr-2"> | </span>
-                <a href="features.html" class="footer-nav-links hvr-underline-from-center">Features</a><span
-                    class="ml-2 mr-2"> | </span>
-                <a href="contact.html" class="footer-nav-links hvr-underline-from-center">Contact</a><span
-                    class="ml-2 mr-2"> | </span>
-                <a href="about.html" class="footer-nav-links hvr-underline-from-center">About</a>
-            </div>
-            <div class="col-12 col-lg-2 order-lg-3 mb-4 mb-lg-0">
-                <a href="contact.html" class="btn btn-cta ml-lg-3">Talk to us</a>
-            </div>
-            <div class="col-12 col-lg-2 order-lg-1 text-lg-left mb-4 mb-lg-0">
-                <a class="navbar-brand" href="index.html">
+        <!-- FOOTER SECTION -->
+        <!--    THIS IS A 3 PART BOOTSTRAP COLUMN INCLUDING NAVIGATION, LOGO AND TALK TO US BUTTON -->
+        <footer class="container-fluid page-footer">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-12 col-lg-8 mb-4 order-lg-2 mt-lg-2 page-footer-links">
+                    <a href="index.html" class="footer-nav-links active">Home</a><span class="ml-2 mr-2"> | </span>
+                    <a href="hospitality.html" class="footer-nav-links hvr-underline-from-center">Hospitality</a><span
+                        class="ml-2 mr-2"> | </span>
+                    <a href="retail.html" class="footer-nav-links hvr-underline-from-center">Retail</a><span
+                        class="ml-2 mr-2"> | </span>
+                    <a href="features.html" class="footer-nav-links hvr-underline-from-center">Features</a><span
+                        class="ml-2 mr-2"> | </span>
+                    <a href="contact.html" class="footer-nav-links hvr-underline-from-center">Contact</a><span
+                        class="ml-2 mr-2"> | </span>
+                    <a href="about.html" class="footer-nav-links hvr-underline-from-center">About</a>
+                </div>
+                <div class="col-12 col-lg-2 order-lg-3 mb-4 mb-lg-0">
+                    <a href="contact.html" class="btn btn-cta ml-lg-3">Talk to us</a>
+                </div>
+                <div class="col-12 col-lg-2 order-lg-1 text-lg-left mb-4 mb-lg-0">
+                    <a class="navbar-brand" href="index.html">
                     <img src="assets/images/ai-logo-navbar-logo.png" height="30" alt="Touch AI logo">
-                </a>
-            </div>
-        </div>
-
-        <!-- ANOTHER 3 PART BOOTSTRAP COLUMN - CONTAINS ADDRESS, SOCIAL LINKS AND COPYRIGHT  -->
-        <div class="row justify-content-lg-between">
-            <div class="col-12 mb-5 mb-lg-2 col-lg-3 text-lg-left order-lg-1">
-                <h6>917 Payne Street</h6>
-                <h6>Atkinborough</h6>
-                <h6>F1N-D0NE</h6>
-                <h6>PHONE: +28 01 281-200-0815</h6>
-                <h6>Mob: 603-616-7758</h6>
-                <h6>email: ourcompany@thiscompany.com</h6>
-            </div>
-            <div class="col-12 col-lg-3 order-lg-3 mt-lg-5 text-lg-right">
-                <a class="social-links" href="https://twitter.com" target="_blank" aria-label="Link to Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a class="social-links" href="https://facebook.com" target="_blank" aria-label="Link to Facebook">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a class="social-links" href="https://www.linkedin.com" target="_blank" aria-label="Link to Linked In">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a class="social-links" href="https://www.youtube.com" target="_blank" aria-label="Link to You Tube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-            <div class="col-12 col-lg-6 order-lg-2 align-self-end">
-                <div class="Copyright">
-                    <small>Copyright 2020 Touch AI all rights reserved</small>
+                    </a>
                 </div>
             </div>
-        </div>
 
-    </footer>
+            <!-- ANOTHER 3 PART BOOTSTRAP COLUMN - CONTAINS ADDRESS, SOCIAL LINKS AND COPYRIGHT  -->
+            <div class="row justify-content-lg-between">
+                <div class="col-12 mb-5 mb-lg-2 col-lg-3 text-lg-left order-lg-1">
+                    <h6>917 Payne Street</h6>
+                    <h6>Atkinborough</h6>
+                    <h6>F1N-D0NE</h6>
+                    <h6>PHONE: +28 01 281-200-0815</h6>
+                    <h6>Mob: 603-616-7758</h6>
+                    <h6>email: ourcompany@thiscompany.com</h6>
+                </div>
+                <div class="col-12 col-lg-3 order-lg-3 mt-lg-5 text-lg-right">
+                    <a class="social-links" href="https://twitter.com" target="_blank" aria-label="Link to Twitter">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="social-links" href="https://facebook.com" target="_blank" aria-label="Link to Facebook">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                    <a class="social-links" href="https://www.linkedin.com" target="_blank" aria-label="Link to Linked In">
+                    <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a class="social-links" href="https://www.youtube.com" target="_blank" aria-label="Link to You Tube">
+                    <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 order-lg-2 align-self-end">
+                    <div class="Copyright">
+                        <small>Copyright 2020 Touch AI all rights reserved</small>
+                    </div>
+                </div>
+            </div>
 
+        </footer>
 
-    <!-- SCRIPT LINKS -->
-
-    <!-- JQury AND POPPER - SOURCED CDN FROM BOOTSTRAP -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <!-- BOOTSTRAP 4.4.1 -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+        <!-- SCRIPT LINKS -->
+        <!-- JQury AND POPPER - SOURCED CDN FROM BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP 4.4.1 -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
