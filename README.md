@@ -66,8 +66,6 @@ The visitor to the website will almost certainly have or will intend to visit an
 * As management I want to showcase our philosophy of support first.
 * As tech support I want to see how our services and efforts can be showcased to the clients.
 
-<br>
-
 ---
 <br>
 <div align="center">
@@ -179,7 +177,7 @@ A white center trunk when the screen is expanded to desktop type sizes will then
 * They each contain a common navigation bar with the convention of a left-hand logo with the site navigation links on the right and a call-to-action button that links to the contact page.
 * Each page also contains a common footer, with site navigation, contact details and social media links, and another call-to-action button for making contact.
 
-#### Home — Landing page
+#### index — Home - Landing page
 
 * Hero image with promotional text and a call to action to "Take a Look" which leads to more information.
 * Contains a brief introduction to Touch AI.
@@ -236,6 +234,7 @@ A white center trunk when the screen is expanded to desktop type sizes will then
 * To be more useful as a point of information, a more specific downloads section or FAQ site would be useful for downloading brochures, spec sheets, etc.
 * A Blog page, I feel that news stories and case studies of partner installations and similar news stories does create a more solid online image, and creates confidence.
 * A video demonstration page.
+* Make bottom navigation bar in the footer section to be more visually appealing and symetrical - perhaps remove vertical bars when on outside of line, when in mobile view.
 
 ---
 <br>
@@ -276,9 +275,7 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
 
 ![Responsive Touch-AI](https://github.com/Mr-Smyth/Touch-AI/blob/master/assets/images/responsive.PNG "Site Responsive Demo Image")
 
-<br>
 
----
 <br>
 
 ## Checking with Touch AI's needs:
@@ -408,9 +405,6 @@ I then checked on the various devices I have available to me:
 5.  Type `git clone` then right-click and paste the URL.
 6.  The line should look something like this: `$ git clone https://github.com/Mr-Smyth/Touch-AI.git`.
 7.  Press Return or Enter and your clone will be created.
-
-
-<br>
 
 ---
 <br>
