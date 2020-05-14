@@ -42,15 +42,13 @@ The Website must contain all information relevant to the features of the Softwar
 
 The information must obviously be accurate, and presented in a clear and concise manner.
 
-<br>
 
 _("**KISS** - keep it simple, stupid" — U.S. Navy 1960)_
 
-<br>
 
 The visitor to the website will almost certainly have, or will intend to visit and compare other websites and products. So being transparent and informative above and beyond the need is an experience that will remain with the visitor.
 
-<br>
+
 
 ---
 <br>
@@ -98,7 +96,6 @@ The visitor to the website will almost certainly have, or will intend to visit a
 
 Ultimately for the first release we will use the above table to target the most feasible elements.
 
-<br>
 
 ---
 
@@ -109,7 +106,6 @@ Ultimately for the first release we will use the above table to target the most 
 
 I made these of a medium fidelity, deliberately leaving out promo images as they have not been finalized: I included some color and possible content placement, to test the appearance.
 
-<br>
 
 * [Home screen wire frame](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/home-screen-wireframe.pdf)
 
@@ -123,7 +119,7 @@ I made these of a medium fidelity, deliberately leaving out promo images as they
 
 * [About us screen wire frame](https://github.com/Mr-Smyth/ai-touch/blob/master/wireframes/about-screen-wireframe.pdf)
 
-<br>
+
 
 ---
 <br>
@@ -175,7 +171,7 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 # Features
-<br>
+
 
 #### Common features across the site:
 
@@ -235,20 +231,17 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 ## Features considering implementing in future releases:
-<br>
 
 * A further set of pages relating to the individual products in more specific detail. This would branch off from the current Hospitality and Retail sections, into more specific areas such as Handheld ordering, Online sales, Kitchen Printing/Video ordering etc. With links back to case studies where Touch AI, helped to solve a problem with its software.
 * To be more useful as a point of information, a more specific downloads section or FAQ site would be useful for downloading brochures, spec sheets etc.
 * A Blog page, i feel that news stories and case studies of partner installations and similar news stories does create a more solid online image, and creates confidence.
 * A video demonstration page.
 
-
 ---
 <br>
 
 
 # Technologies Used:
-<br>
 
 * **HTML and CSS** programming languages were used as the core building language of this website.
 * [VS Studio code](https://code.visualstudio.com/) was used alongside [Gitpod](https://www.gitpod.io/) to develop this website.
@@ -263,7 +256,6 @@ A white center trunk when the screen is expanded to desktop type sizes, will the
 <br>
 
 # Issues during development:
-<br>
 
  **Trying to implement the center white column in larger screen sizes**:
  
@@ -290,7 +282,6 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
 <br>
 
 ## Checking with Touch AI's needs:
-<br>
 
 * **_As a user I want to easily find the information I want:_**
    * The Touch AI Website achieves this by having a clear easy to navigate layout, in simple clear sections.
@@ -329,13 +320,13 @@ Therefore there is a tiny window between 1260px and 1200px where my images would
 <br>
 
 ## Responsiveness and Rendering:
-<br>
+
 
 This was initially done using Google chrome developer tools, for the initial stages.
 
 Once the Website was completed, I then put my code through some validation checks using the following resources:
 
-<br>
+
 
 * [Autoprefixer](https://autoprefixer.github.io/) was used to parse my CSS and add vendor prefixes where needed.
 * [CanIuse](https://caniuse.com) was used for checking on various features which i used. I found a worrying lack of Flexbox compatibility associated with IE 11.
@@ -346,18 +337,13 @@ Once the Website was completed, I then put my code through some validation check
 
 I then used the following browsers directly on my own PC's to check layouts, and links of the website:
 
-<br>
 
 * Chrome version 81.
 * Edge version 81.
 * Opera version 68.
 * Firefox version 76.
 * IE 11.
-  
-<br>
-
-I then used [SauceLabs](https://saucelabs.com/) to verify the layout and links on Safari version 13.1.
-
+* I used [SauceLabs](https://saucelabs.com/) to verify the layout and links on Safari version 13.1.
 
 On Each Browser i performed a simulated visit, Querying various parts of the website to test my User Stories. All eventualities led to the contact page in a minimum number of clicks, where i experimented with trying to submit an empty form, or a form missing any of the key required fields.
 
@@ -371,7 +357,6 @@ I then checked on the various devices i have available to me:
 <br>
 
 ## Testing Results:
-<br>
 
 * All validations on the HTML returned with no errors.
 * The CSS Validation, showed warnings for the vendor prefixes, which are required for cross browser support.
@@ -379,19 +364,16 @@ I then checked on the various devices i have available to me:
 * **An exception to this was on IE11, where the browser did not render the shadow effects or any of the simple flexbox classes. I have not been able to find a workaround for this as yet.**
 * Each browser carried out the simulated visit as expected and satisfied all the user stories.
 
-<br>
 
-All devices tested worked as expected.
+**All devices tested worked as expected.**
 
 <br>
 
 ## Unresolved issues / Known Bugs
-<br>
-An exception on IE11 - where the browser did not render the shadow effects or any of the simple flexbox classes. The resulting effect is that on IE 11, Any text positioned using flexbox type classes are not rendering as expected. Also some shadow effects are not compatible with the IE11 Browser.  I have not been able to find a workaround for this as yet.
 
-I occasionally found a tiny residual trace left behind after the navigation hover effect, it was very small and infrequent.
-<br>
-<br>
+*    An exception on IE11 - where the browser did not render the shadow effects or any of the simple flexbox classes. The resulting effect is that on IE 11, Any text positioned using flexbox type classes are not rendering as expected. Also some shadow effects are not compatible with the IE11 Browser. I researched usage of IE 11 as of April 2020 on [W3counter](https://www.w3counter.com/globalstats.php) and found that only 1.75% still use IE 11, as a result i do not feel a re-writing of code, or any generous time investment would be worthwhile for a browser that is clearly phasing out. Edge has no such issues.
+
+*    I occasionally found a tiny residual trace left behind after the navigation hover effect, it was very small and infrequent, i spent some time trying to discover the source of the problem, and i suspect it is something to do with the imported [Hover effect](https://ianlunn.github.io/Hover/), as i removed my custom styling of the effect and the issue still remained. I felt that the problem was not noticable to anyone who user tested the site for me so decided that it wasnt worth the time investment.
 
 ---
 <br>
@@ -415,7 +397,7 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 ## Local Branch:
-<br>
+
 
 #### It is possible to run a clone of this website on your own local machine:
 
@@ -437,7 +419,6 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 ## Content and code
-<br>
 
 * The content of the pages is primarily my own personal knowledge of the EPOS Trade from over 20 years of experience in the industry. However on AI possibilities i read a [Medium](https://medium.com/@ccspos/ai-integration-in-pos-system-enhances-the-software-and-restaurant-business-bc4de5eac090) and a [Retail CIO](https://artificial-intelligence-apac.retailciooutlook.com/cxoinsights/pos-systems-can-now-become-artificial-intelligence-weapons--nid-145.html) article specifically on the possibilities of AI in Retail to sharpen my knowledge and i took some influence from there on specific AI related topics.
 * I read an article by [Clutch](https://clutch.co/seo-firms/resources/meta-tags-that-improve-seo) about must have Meta tags, which led me to add the description Meta Tag to the head element.
@@ -449,7 +430,6 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 ## Media
-<br>
 
 * The photos used in this site were royalty free and obtained from Unsplash and/or, privately owned by me.
 * Logo was designed and created by me, using [Gimp](https://www.gimp.org/) after trying, and gaining some inspiration from free logo design websites such as [free logo design](https://www.freelogodesign.org/) and [Design Hill](https://www.designhill.com/). Later added a light outline to the text in the logo as it had been mentioned to me that the slogan text was getting lost in the dark purple background.
@@ -457,13 +437,11 @@ I occasionally found a tiny residual trace left behind after the navigation hove
 <br>
 
 ## Acknowledgments
-<br>
 
 * I received inspiration for this project from the eventual realization of what was said in the instructions. As advised, if in doubt stick to something you know. I have always searched for websites that give a clear uncluttered view when dealing with this exact subject in the past, and all too often these types of websites, just feel like the owners have decided to just cram everything in. Often in life — Less is More..
 
 <br>
 
 ## Disclaimer
-<br>
 
 The content of this Website is for educational purposes only.
