@@ -100,10 +100,10 @@
                 <!-- FULL NAME FORM GROUP -->
                 <div class="row mb-4">
                     <div class="col-12">
-                        <label for="full_name" class="input-label input-required">Full Name</label>
+                        <label for="fullName" class="input-label input-required">Full Name</label>
                     </div>
                     <div class="col-12">
-                        <input class="full-width-input" type="text" name="full_name" id="fullname"
+                        <input class="full-width-input" type="text" name="full_name" id="fullName"
                             placeholder="Enter your full name" required>
                     </div>
                 </div>
@@ -111,10 +111,10 @@
                 <!-- COMPANY NAME FORM GROUP -->
                 <div class="row mb-4">
                     <div class="col-12">
-                        <label for="company_name" class="input-label input-required">Your Company Name</label>
+                        <label for="companyName" class="input-label input-required">Your Company Name</label>
                     </div>
                     <div class="col-12">
-                        <input class="full-width-input" type="text" name="company_name" id="companyname"
+                        <input class="full-width-input" type="text" name="companyName" id="companyName"
                             placeholder="Enter your company name" required>
                     </div>
                 </div>
@@ -141,10 +141,10 @@
                                 <input class="full-width-input" type="text" name="postcode" id="postcode">
                             </div>
                             <div class="col-12">
-                                <label for="contact_number" class="input-label">Contact Number</label>
+                                <label for="contactNumber" class="input-label">Contact Number</label>
                             </div>
                             <div class="col-12 mb-4">
-                                <input class="full-width-input" type="text" name="contact_number" id="contact_numbers">
+                                <input class="full-width-input" type="text" name="contactNumber" id="contactNumber">
                             </div>
                         </div>
                     </div>
@@ -166,18 +166,18 @@
                 <!-- METHOD OF CONTACT FORM GROUP -->
                 <div class="row no-gutters mb-4">
                     <div class="col-12">
-                        <label for="howContacted" class="input-label mb-3">How would you like us to contact you?</label>
+                        <label class="input-label mb-3">How would you like us to contact you?</label>
                     </div>
                     <div class="col-12">
-                        <label class="mr-3 mr-lg-5">
-                        <input class="mr-2" name="howContacted" type="radio" id="howContacted"
+                        <label for="howContacted-tel" class="mr-3 mr-lg-5">
+                        <input class="mr-2" name="howContacted" type="radio" id="howContacted-tel"
                             value=" Telephone" />Telephone
                         </label>
-                        <label class="mr-3 mr-lg-5">
-                        <input class="mr-2" name="howContacted" type="radio" id="howContacted" value="Email" />Email
+                        <label for="howContacted-email" class="mr-3 mr-lg-5">
+                        <input class="mr-2" name="howContacted" type="radio" id="howContacted-email" value="Email" />Email
                         </label>
-                        <label class="mr-3 mr-lg-5">
-                        <input class="mr-2" name="howContacted" type="radio" id="howContacted" value="Either"
+                        <label for="howContacted-either" class="mr-3 mr-lg-5">
+                        <input class="mr-2" name="howContacted" type="radio" id="howContacted-either" value="Either"
                             checked />Either
                         </label>
                     </div>
@@ -193,7 +193,7 @@
                             placeholder="Enter your message here.."></textarea>
                     </div>
                 </div>
-                <button class="btn btn-submit" type="submit" name="form_submit">Submit</button></div>
+                <button class="btn btn-submit" type="submit" name="form_submit">Submit</button>
             </form>
             <!-- END OF FOOTER -->
 
